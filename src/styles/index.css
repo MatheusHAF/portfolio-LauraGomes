@@ -1,4 +1,6 @@
 body {
   margin: 0;
   font-family: "Volkhov", serif;
+  background: radial-gradient(circle, #333333, #000000);
+  background-attachment: fixed;
 }

@@ -7,7 +7,6 @@ function Navbar() {
     return (
         <nav className={styles.header}>
             <Container>
-                <h1><Link to="/Home">Laura Gomes</Link></h1>
                 <ul className={styles.list}>
                     <li><Link to="/Home">Inicio</Link></li>
                     <li><Link to="/Sobre">Sobre</Link></li>
