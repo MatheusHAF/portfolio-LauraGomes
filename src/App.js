@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
+import Navbar from './components/Pages/Navbar';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Container from './components/Pages/Container';
+import Home from './components/Pages/Home';
+import Sobre from './components/Pages/Sobre';
+import Projetos from './components/Pages/Projetos';
+import Contatos from './components/Pages/Contatos';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Oi Laura Gomi, esse é o seu
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Site
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Container customClass="min-height">
+          <Routes>
+            <Route path='/Home' element={<Home />} />
+            <Route path='/Sobre' element={<Sobre />} />
+            <Route path='/Projetos' element={<Projetos />} />
+            <Route path='/Contatos' element={<Contatos />} />
+          </Routes>
+        </Container>
+        <footer> rodapé</footer>
+      </Router>
+    </>
   );
 }
 
