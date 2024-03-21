@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Volkhov", serif;
+  font-family: "PT Mono", monospace;
   background: radial-gradient(ellipse, #202020, #000000);
   background-attachment: fixed;
 }

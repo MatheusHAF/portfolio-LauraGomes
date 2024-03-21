@@ -12,14 +12,20 @@
     justify-content: space-around;
     width: 60%;
     padding: 2em 1em;
+    border-radius: 10px;
     background: transparent;
     background: rgba(255, 255, 255, 0.027);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.027);
+    box-shadow: 0 0 10px rgb(255, 187, 0);
+    text-align: center;
 }
 
 .about p {
     width: 70%;
     padding-right: 5em;
+}
+.about p span{
+    font-size: 22px;
+    color: rgb(255, 187, 0);
 }
 .about div{
     width: 50%;

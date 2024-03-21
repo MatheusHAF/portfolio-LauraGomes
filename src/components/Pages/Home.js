@@ -7,7 +7,7 @@ function Home() {
         <div className={`${styles.main}`}>
             <div className={styles.about}>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Oi, me chamo <span>Laura Gomes</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Phasellus id mi ultrices, venenatis ligula ut, consequat erat. Aenean quis ultricies lacus. Quisque condimentum vel odio eget tristique.
                     Nullam eget lacus et libero porta egestas. Donec lobortis convallis lacus eu tempus. Praesent non consequat leo. Aenean id rutrum dolor.
                     Vestibulum ut molestie augue.
