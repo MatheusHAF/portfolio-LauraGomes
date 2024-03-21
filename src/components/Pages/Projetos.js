@@ -1,18 +1,29 @@
 import styles from "../styles_modules/Projeto.module.css"
 
+import img1 from "../../images/slides/cortina-de-palco-vermelho-para-teatro-cortina-de-cena-de-opera_107791-1552.avif"
+import img2 from "../../images/slides/depositphotos_5903137-stock-photo-actor-with-maks-in-a.jpg"
+import img3 from "../../images/slides/images.jpeg"
+import img4 from "../../images/slides/inedi_in_cena_3-q92e6i4qhsgybw5qk451rqi4urhrewjyxf9s9wvkhc.jpg"
+import img5 from "../../images/slides/teatro-portugues.jpg"
+
+// import function to register Swiper custom elements
+import { register } from 'swiper/element/bundle';
+// register Swiper custom elements
+
+register();
 function Projetos() {
     return (
         <div>
             <h1>Projetos</h1>
-            <div>
+            <div className={styles.container}>
                 <h2>Teatro</h2>
-                <p>
-                    Mollit duis eiusmod officia mollit est commodo commodo elit id eiusmod ad eu culpa dolor.
-                    Cupidatat nostrud nostrud reprehenderit ullamco aliquip irure non cupidatat ex cupidatat
-                    anim esse qui do. Do esse do cillum laboris. Tempor Lorem exercitation reprehenderit pariatur
-                    aliqua officia ea sint nostrud proident ad id cillum. Dolore eiusmod aute reprehenderit sint
-                    labore fugiat sit ex non. Tempor officia Lorem eiusmod cillum duis deserunt aute.
-                    Exercitation adipisicing consequat nulla officia velit Lorem Lorem. </p>
+                <swiper-container navigation="true" pagination="true" slides-per-view="4" speed="200" loop="true" css-mode="true">
+                    <swiper-slide><img src={img1} alt=""/></swiper-slide>
+                    <swiper-slide><img src={img2} alt=""/></swiper-slide>
+                    <swiper-slide><img src={img3} alt=""/></swiper-slide>
+                    <swiper-slide><img src={img4} alt=""/></swiper-slide>
+                    <swiper-slide><img src={img5} alt=""/></swiper-slide>
+                </swiper-container>
             </div>
         </div>
     );

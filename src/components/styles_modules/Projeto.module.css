@@ -1,0 +1,14 @@
+.container{
+    width: 30vw;
+    background-color: yellow;
+}
+.container img{
+    width: 100px;
+    height: 100px;
+}
+swiper-container::part(bullet-active) {
+    background-color: red;
+}
+swiper-container::part(swiper-button-next) {
+    background-color: rgb(255, 0, 221);
+}
