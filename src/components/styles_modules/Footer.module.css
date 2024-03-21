@@ -5,7 +5,6 @@
     color: rgb(134, 134, 134);
     background-color: rgb(26, 26, 26);
     width: 100%;
-    border-top: 1px solid rgba(206, 171, 13, 0.267);
 }
 .footer_top{
     width: 90%;
@@ -18,11 +17,16 @@
     width: 30%;
     text-align: justify;
 }
+.top_left h1{
+    color: rgb(206, 170, 13);
+    font-weight: 400;
+}
 .top_right{
     text-align: justify;
     flex-direction: column;
 }
 .top_right p{
+    color: rgb(206, 170, 13);
     text-align: end;
 }
 .top_right ul{
