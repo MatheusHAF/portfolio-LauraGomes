@@ -1,6 +1,9 @@
 .container{
     width: 85vw;
-    background-color: rgba(255, 0, 0, 0.301);
+    background-color: rgba(58, 58, 58, 0.301);
+    box-shadow: 0 0 4px rgb(255, 187, 0);
+    border-radius: 10px;
+    padding: 1em;
 }
 .container img{
     width: 100px;
