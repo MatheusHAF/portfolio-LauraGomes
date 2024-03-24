@@ -13,10 +13,9 @@
     width: 60%;
     padding: 2em 1em;
     border-radius: 10px;
-    background: transparent;
-    background: rgba(255, 255, 255, 0.027);
-    box-shadow: 0 0 10px rgb(255, 187, 0);
+    background-color: rgba(255, 255, 255, 0.027);
     text-align: center;
+    box-shadow: 0 0 10px rgb(255, 187, 0);
 }
 
 .about p {

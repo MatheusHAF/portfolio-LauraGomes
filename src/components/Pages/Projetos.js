@@ -17,7 +17,7 @@ function Projetos() {
             <h1>Projetos</h1>
             <div className={styles.container}>
                 <h2>Teatro</h2>
-                <swiper-container navigation="true" pagination="true" slides-per-view="4" speed="200" loop="true" css-mode="true">
+                <swiper-container navigation="true" slides-per-view="2" loop="true" css-mode="true">
                     <swiper-slide><img src={img1} alt=""/></swiper-slide>
                     <swiper-slide><img src={img2} alt=""/></swiper-slide>
                     <swiper-slide><img src={img3} alt=""/></swiper-slide>
