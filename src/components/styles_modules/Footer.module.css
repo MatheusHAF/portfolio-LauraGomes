@@ -4,6 +4,7 @@
     align-items: center;
     color: rgb(134, 134, 134);
     background-color: rgb(26, 26, 26);
+    border-top: 1px solid black;
     width: 100%;
 }
 .footer_top{

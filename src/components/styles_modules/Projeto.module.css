@@ -2,7 +2,6 @@
     position: relative;
     margin: 0;
     width: 100vw;
-    padding: 2em;
 }
 swiper-container::part(bullet-active) {
     background-color: rgb(255, 0, 234);
