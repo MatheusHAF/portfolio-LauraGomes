@@ -8,6 +8,7 @@ import Sobre from './components/Pages/Sobre';
 import Projetos from './components/Pages/Projetos';
 import Contatos from './components/Pages/Contatos';
 import Footer from './components/Pages/Footer';
+import Projeto from './components/Pages/Projeto';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path='/Sobre' element={<Sobre />} />
             <Route path='/Projetos' element={<Projetos />} />
             <Route path='/Contatos' element={<Contatos />} />
+            <Route path='/Projeto' element={<Projeto/>} />
           </Routes>
         </Container>
         <Footer/>

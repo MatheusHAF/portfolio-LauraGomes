@@ -1,0 +1,11 @@
+.container{
+    position: relative;
+    margin: 0;
+    width: 100vw;
+}
+swiper-container::part(bullet-active) {
+    background-color: rgb(255, 0, 234);
+}
+swiper-container::part(swiper-button-next){
+    background-color: rgb(255, 0, 234);
+}

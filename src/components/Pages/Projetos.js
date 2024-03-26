@@ -1,4 +1,4 @@
-import styles from "../styles_modules/Projeto.module.css"
+import styles from "../styles_modules/Projetos.module.css"
 import Galeria from "./Galeria";
 
 

@@ -2,6 +2,7 @@ import { ResponsiveMasonry } from "react-responsive-masonry";
 import Masonry from "react-responsive-masonry";
 import styles from "../styles_modules/Galeria.module.css";
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 
 const Galeria = ({ images }) => {
     const [selectedFilter, setSelectedFilter] = useState('');
@@ -32,17 +33,21 @@ const Galeria = ({ images }) => {
                         {
                             filteredImages.map((image, index) => (
                                 image.url && (
-                                    <div key={index} className={styles.card}>
-                                        <img
-                                            src={image.url}
-                                            alt={image.alt}
-                                            className={styles.image}
-                                        />
-                                        <div className={styles.overlay}></div>
-                                        <div className={styles.text}>
-                                            {image.alt}
+
+                                    <a href="/projeto">
+                                        <div key={index} className={styles.card}>
+                                            <img
+                                                src={image.url}
+                                                alt={image.alt}
+                                                className={styles.image}
+                                            />
+                                            <div className={styles.overlay}></div>
+                                            <div className={styles.text}>
+                                                {image.alt}
+                                            </div>
                                         </div>
-                                    </div>
+                                    </a>
+
                                 )
                             ))
                         }
