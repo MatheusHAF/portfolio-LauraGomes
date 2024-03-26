@@ -60,11 +60,11 @@ function Projetos() {
 
     ];
     // Aleatorizar o array de imagens
-    const ImagesAleat = images.sort(() => Math.random() - 0.5);
+    const images2 = images.sort(() => Math.random() - 0.1);
     return (
         <div className={styles.container}>
             <h1>Projetos</h1>
-            <Galeria images={ImagesAleat} />
+            <Galeria images={images2} />
         </div>
     );
 }
