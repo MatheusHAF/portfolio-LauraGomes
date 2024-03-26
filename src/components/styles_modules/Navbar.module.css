@@ -16,7 +16,7 @@
 }
 
 .list li {
-    height: 4em;
+    height: 3em;
     margin-right: 0.5em;
 }
 
@@ -29,6 +29,7 @@
     justify-content: center;
     position: relative;
     padding: 0 10px;
+    font-weight: 700;
     
 }
 .header li a:after{
