@@ -1,7 +1,12 @@
 .container{
+    padding-top: 2em;
     position: relative;
     margin: 0;
     width: 100vw;
+    text-align: center;
+}
+.container h1{
+    color: rgb(255, 187, 0);
 }
 swiper-container::part(bullet-active) {
     background-color: rgb(255, 0, 234);
