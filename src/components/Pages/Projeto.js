@@ -1,9 +1,9 @@
 import styles from "../styles_modules/Projeto.module.css"
 function Projeto() {
-    return(
+    return (
         <div className={styles.container}>
             <h1>Projeto tal</h1>
-            <p></p>
+            <p>{}</p>
         </div>
     );
 }
