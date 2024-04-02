@@ -15,7 +15,7 @@ function Navbar() {
     };
     return (
         <nav className={styles.header}>
-            <img src={logo} alt="logo" />
+            <Link to="/"><img src={logo} alt="logo" /></Link>
             <FaBars className={styles.menu_icon} onClick={toggleMenu} />
             <Container>
                 <ul className={menuOpen ? `${styles.list} ${styles.open}` : `${styles.list}`}>
