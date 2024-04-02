@@ -1,9 +1,13 @@
 .header {
+    position: relative;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: end;
     background-color: rgb(26, 26, 26);
+}
+
+.header img {
+    width: 200px;
+    margin: 1rem 0 0 1rem;
 }
 
 .list {
@@ -13,7 +17,7 @@
     font-weight: 400;
     align-items: center;
     display: flex;
-    margin-left: auto; /* Adicionando essa linha */
+    margin-left: auto;
 }
 
 .list li {
@@ -31,9 +35,9 @@
     position: relative;
     padding: 0 10px;
     font-weight: 700;
-    
 }
-.header li a:after{
+
+.header li a:after {
     position: absolute;
     content: " ";
     width: 0;
@@ -43,10 +47,83 @@
     bottom: 0;
     transition: 0.3s ease-in-out;
 }
-.header li a:hover{
+
+.header li a:hover {
     color: white;
     transition: 0.3s;
 }
-.header li a:hover:after{
+
+.header li a:hover:after {
     width: 100%;
+}
+
+.menu_icon {
+    font-size: 50px;
+    position: absolute;
+    right: 0.75rem;
+    top: 2rem;
+    display: none;
+}
+
+.menu_icon:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .menu_icon {
+        display: block;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .list {
+        display: flex;
+        flex-wrap: wrap; /* Define o layout em duas colunas */
+        justify-content: center; /* Centraliza os itens na linha */
+        padding: 0;
+        margin: 0 auto;
+        overflow: hidden; /* Para garantir que o conteúdo oculto não seja exibido */
+        max-height: 0; /* Começa com altura zero para ocultar a lista */
+        animation: slideDown 1s ease forwards; /* Aplicando a animação slideDown */
+    }
+
+    .list.open {
+        max-height: 100%; /* Definindo a altura máxima para mostrar a lista completa */
+        animation: slideUp 0.5s ease forwards;
+    }
+
+    .list li {
+        width: 50%; /* Define a largura para ocupar metade do espaço em telas menores */
+    }
+
+    .list li a {
+        width: 100%; /* Garante que os links ocupem toda a largura do item da lista */
+    }
+}
+
+@keyframes slideDown {
+    from {
+        max-height: 0;
+        /* Começa com altura zero */
+    }
+
+    to {
+        max-height: 500px;
+        /* Termina com uma altura específica */
+    }
+}
+
+@keyframes slideUp {
+    from {
+        max-height: 500px;
+        /* Começa com uma altura específica */
+    }
+
+    to {
+        max-height: 0;
+        /* Termina com altura zero */
+        color: white;
+    }
 }

@@ -29,6 +29,37 @@ import imginfluencer3 from "../../images/INFLUENCER/IMG_7637.jpg"
 
 
 function Projetos() {
+    const okuta = [
+        { url: imgokuta1, alt: 'Okutá', tags: ['teatro'] },
+        { url: imgokuta2, alt: 'Okutá', tags: ['teatro'] },
+        { url: imgokuta3, alt: 'Okutá', tags: ['teatro'] },
+        { url: imgokuta4, alt: 'Okutá', tags: ['teatro'] },
+        { url: imgokuta5, alt: 'Okutá', tags: ['teatro'] },
+        { url: imgokuta6, alt: 'Okutá', tags: ['teatro'] },
+        { url: imgokuta7, alt: 'Okutá', tags: ['teatro'] },
+        { url: imgokuta8, alt: 'Okutá', tags: ['teatro'] },
+        { url: imgokuta9, alt: 'Okutá', tags: ['teatro'] },
+        { url: imgokuta10, alt: 'Okutá', tags: ['teatro'] }
+    ];
+
+    const capoeira = [
+        { url: imgcapoeira1, alt: 'Capoeira', tags: ['capoeira'] },
+        { url: imgcapoeira2, alt: 'Capoeira', tags: ['capoeira'] }
+    ]
+    const umanoite = [
+        { url: imgumanoite1, alt: 'Uma Noite', tags: ['teatro'] },
+        { url: imgumanoite2, alt: 'Uma Noite', tags: ['teatro'] },
+        { url: imgumanoite3, alt: 'Uma Noite', tags: ['teatro'] },
+        { url: imgumanoite4, alt: 'Uma Noite', tags: ['teatro'] },
+        { url: imgumanoite5, alt: 'Uma Noite', tags: ['teatro'] },
+        { url: imgumanoite6, alt: 'Uma Noite', tags: ['teatro'] }
+    ]
+    const influencer = [
+        { url: imginfluencer1, alt: 'Lado B', tags: ['influencer'] },
+        { url: imginfluencer2, alt: 'Lado B', tags: ['influencer'] },
+        { url: imginfluencer3, alt: 'Lado B', tags: ['influencer'] }
+    ]
+
     const images = [
         { url: imgokuta1, alt: 'Okutá', tags: ['teatro'] },
         { url: imgokuta2, alt: 'Okutá', tags: ['teatro'] },
@@ -48,8 +79,8 @@ function Projetos() {
         { url: imgumanoite5, alt: 'Uma Noite', tags: ['teatro'] },
         { url: imgumanoite6, alt: 'Uma Noite', tags: ['teatro'] },
 
-        { url: imgcapoeira1, alt: 'Ubutuba - Capoeira', tags: ['capoeira'] },
-        { url: imgcapoeira2, alt: 'Ubutuba - Capoeira', tags: ['capoeira'] },
+        { url: imgcapoeira1, alt: 'Capoeira', tags: ['capoeira'] },
+        { url: imgcapoeira2, alt: 'Capoeira', tags: ['capoeira'] },
 
         { url: imginfluencer1, alt: 'Lado B', tags: ['influencer'] },
         { url: imginfluencer2, alt: 'Lado B', tags: ['influencer'] },

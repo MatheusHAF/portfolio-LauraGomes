@@ -34,7 +34,7 @@ const Galeria = ({ images }) => {
                             filteredImages.map((image, index) => (
                                 image.url && (
 
-                                    <Link to='/Projeto'>
+                                    <Link to={`/Projeto/${image.alt}`}>
                                         <div key={index} className={styles.card}>
                                             <img
                                                 src={image.url}
