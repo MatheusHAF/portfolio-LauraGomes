@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 import logo from "../../images/logo.png"
 
 import Container from "./Container";
+import { configure } from "@testing-library/react";
 
 function Navbar() {
-
-    const[menuOpen,setMenuOpen] = useState(false)
+    const[menuOpen,setMenuOpen] = useState(true)
     function toggleMenu() {
         setMenuOpen(!menuOpen);
     };
@@ -19,10 +19,10 @@ function Navbar() {
             <FaBars className={styles.menu_icon} onClick={toggleMenu} />
             <Container>
                 <ul className={menuOpen ? `${styles.list} ${styles.open}` : `${styles.list}`}>
-                    <li><Link to="/">Inicio</Link></li>
-                    <li><Link to="/Sobre">Sobre</Link></li>
-                    <li><Link to="/Projetos">Projetos</Link></li>
-                    <li><Link to="/Contatos">Contatos</Link></li>
+                    <li><Link onClick={toggleMenu} to="/">Inicio</Link></li>
+                    <li><Link onClick={toggleMenu} to="/Sobre">Sobre</Link></li>
+                    <li><Link onClick={toggleMenu} to="/Projetos">Projetos</Link></li>
+                    <li><Link onClick={toggleMenu} to="/Contatos">Contatos</Link></li>
                 </ul>
             </Container>
         </nav>

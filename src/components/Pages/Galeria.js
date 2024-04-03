@@ -18,12 +18,18 @@ const Galeria = ({ images }) => {
     return (
         <>
             <div className={styles.btns}>
-                <button onClick={() => setSelectedFilter('')}>Todos</button>
-                <button onClick={() => handleFilterClick('teatro')}>Teatro</button>
-                <button onClick={() => handleFilterClick('producao')}>Produção</button>
-                <button onClick={() => handleFilterClick('capoeira')}>Capoeira</button>
-                <button onClick={() => handleFilterClick('influencer')}>Influencer</button>
-                {/* Adicione mais botões para outras opções de filtro */}
+                <div>
+                    <button onClick={() => setSelectedFilter('')}>Todos</button>
+                    <button onClick={() => handleFilterClick('teatro')}>Teatro</button>
+                </div>
+                <div>
+                    <button onClick={() => handleFilterClick('producao')}>Produção</button>
+                    <button onClick={() => handleFilterClick('capoeira')}>Capoeira</button>
+                </div>
+                <div>
+                    <button onClick={() => handleFilterClick('influencer')}>Influencer</button>
+                </div>
+                
             </div>
             <div className={styles.container}>
                 <ResponsiveMasonry

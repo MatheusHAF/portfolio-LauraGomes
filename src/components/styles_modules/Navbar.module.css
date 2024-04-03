@@ -88,6 +88,7 @@
         max-height: 0; /* Começa com altura zero para ocultar a lista */
         animation: slideDown 1s ease forwards; /* Aplicando a animação slideDown */
     }
+    
 
     .list.open {
         max-height: 100%; /* Definindo a altura máxima para mostrar a lista completa */
