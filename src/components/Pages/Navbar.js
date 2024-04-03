@@ -9,7 +9,7 @@ import Container from "./Container";
 import { configure } from "@testing-library/react";
 
 function Navbar() {
-    const[menuOpen,setMenuOpen] = useState(true)
+    const[menuOpen,setMenuOpen] = useState(false)
     function toggleMenu() {
         setMenuOpen(!menuOpen);
     };
