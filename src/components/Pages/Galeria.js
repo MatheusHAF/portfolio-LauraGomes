@@ -5,56 +5,28 @@ import { useState } from 'react';
 import { Link } from "react-router-dom";
 
 const Galeria = ({ images }) => {
-    const [selectedFilter, setSelectedFilter] = useState('');
-
-    const handleFilterClick = (filter) => {
-        setSelectedFilter(filter);
-    };
-
-    const filteredImages = selectedFilter
-        ? images.filter((image) => image.tags.includes(selectedFilter))
-        : images;
 
     return (
         <>
-            <div className={styles.btns}>
-                <div>
-                    <button onClick={() => setSelectedFilter('')}>Todos</button>
-                    <button onClick={() => handleFilterClick('teatro')}>Teatro</button>
-                </div>
-                <div>
-                    <button onClick={() => handleFilterClick('producao')}>Produção</button>
-                    <button onClick={() => handleFilterClick('capoeira')}>Capoeira</button>
-                </div>
-                <div>
-                    <button onClick={() => handleFilterClick('influencer')}>Influencer</button>
-                </div>
-                
-            </div>
             <div className={styles.container}>
                 <ResponsiveMasonry
                     columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
                 >
                     <Masonry gutter="10px">
                         {
-                            filteredImages.map((image, index) => (
-                                image.url && (
+                            images.map((image, index) => (
 
-                                    <Link to={`/Projeto/${image.alt}`}>
-                                        <div key={index} className={styles.card}>
-                                            <img
-                                                src={image.url}
-                                                alt={image.alt}
-                                                className={styles.image}
-                                            />
-                                            <div className={styles.overlay}></div>
-                                            <div className={styles.text}>
-                                                {image.alt}
-                                            </div>
-                                        </div>
-                                    </Link>
-
-                                )
+                                <div key={index} className={styles.card}>
+                                    <img
+                                        src={image.url}
+                                        alt={image.alt}
+                                        className={styles.image}
+                                    />
+                                    <div className={styles.overlay}></div>
+                                    <div className={styles.text}>
+                                        {image.alt}
+                                    </div>
+                                </div>
                             ))
                         }
                     </Masonry>
