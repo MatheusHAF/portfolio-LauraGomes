@@ -9,6 +9,7 @@ import Projetos from './components/Pages/Projetos';
 import Contatos from './components/Pages/Contatos';
 import Footer from './components/Pages/Footer';
 import Projeto from './components/Pages/Projeto';
+import Galerias from './components/Pages/Galerias';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route exact path='/' element={<Home />} />
             <Route path='/Sobre' element={<Sobre />} />
             <Route path='/Projetos' element={<Projetos />} />
+            <Route path='/Galerias' element={<Galerias />} />
             <Route path='/Contatos' element={<Contatos />} />
             <Route path='/Projeto/:id' element={<Projeto />} />
           </Routes>

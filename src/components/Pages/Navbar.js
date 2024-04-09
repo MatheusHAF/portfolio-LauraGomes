@@ -9,7 +9,7 @@ import Container from "./Container";
 import { configure } from "@testing-library/react";
 
 function Navbar() {
-    const[menuOpen,setMenuOpen] = useState(false)
+    const[menuOpen,setMenuOpen] = useState(true)
     function toggleMenu() {
         setMenuOpen(!menuOpen);
     };
@@ -22,6 +22,7 @@ function Navbar() {
                     <li><Link onClick={toggleMenu} to="/">Inicio</Link></li>
                     <li><Link onClick={toggleMenu} to="/Sobre">Sobre</Link></li>
                     <li><Link onClick={toggleMenu} to="/Projetos">Projetos</Link></li>
+                    <li><Link onClick={toggleMenu} to="/Galerias">Galeria</Link></li>
                     <li><Link onClick={toggleMenu} to="/Contatos">Contatos</Link></li>
                 </ul>
             </Container>
