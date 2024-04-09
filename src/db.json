@@ -2,22 +2,27 @@
     "projetos":[
         {
             "title":"Teatro",
-            "desc":"Atriz - DRT 0054853/SP Graduanda do curso em Artes Cênicas (Unicamp) e formada no técnico em Artes Dramáticas pelo Conservatório Carlos Gomes (2017). Iniciou seu contato com teatro aos 9 anos no Grupo de Teatro Téspis, onde realizou o curso livre durante 4 anos. Seus trabalhos como atriz atravessam as peças: 'Jardim Comala', direção de Newton Moreno (2023); 'Uma Noite', direção de Eduardo Okamoto (2023); 'A Tragédia do Rei Christophe', direção de Verônica Fabrini (2022); 'Okutá Hiipadatiki', direção de Lucienne Guedes (2022); 'Um dia Ouvi a Lua', direção de Sofia Fransolin e orientação de Larissa Neves (2021); 'Ponto e Vírgula', orientação de Matteo Bonfitto (2021); 'O Alienista', direção de Dirceu de Carvalho (2017); 'Ópera do Malandro', direção de Marcelo Pinta (2016)."
+            "subtitle":"Atriz - DRT 0054853/SP",
+            "desc":"Graduanda do curso em Artes Cênicas (Unicamp) e formada no técnico em Artes Dramáticas pelo Conservatório Carlos Gomes (2017). Iniciou seu contato com teatro aos 9 anos no Grupo de Teatro Téspis, onde realizou o curso livre durante 4 anos. Seus trabalhos como atriz atravessam as peças: 'Jardim Comala', direção de Newton Moreno (2023); 'Uma Noite', direção de Eduardo Okamoto (2023); 'A Tragédia do Rei Christophe', direção de Verônica Fabrini (2022); 'Okutá Hiipadatiki', direção de Lucienne Guedes (2022); 'Um dia Ouvi a Lua', direção de Sofia Fransolin e orientação de Larissa Neves (2021); 'Ponto e Vírgula', orientação de Matteo Bonfitto (2021); 'O Alienista', direção de Dirceu de Carvalho (2017); 'Ópera do Malandro', direção de Marcelo Pinta (2016)."
         },
         {
             "title":"Televisão",
-            "desc":"Atriz - DRT 0054853/SP No início de 2020, iniciou seu trabalho na televisão e se juntou ao elenco de atores do programa 'Encrenca”, na RedeTV! onde realizou esquetes de humor até o final de 2021, quando migrou para a emissora Rede Bandeirantes Radio e Televisão (Band), onde ainda hoje trabalha como atriz no programa Perrengue na Band."
+            "subtitle":"Atriz - DRT 0054853/SP",
+            "desc":"No início de 2020, iniciou seu trabalho na televisão e se juntou ao elenco de atores do programa 'Encrenca”, na RedeTV! onde realizou esquetes de humor até o final de 2021, quando migrou para a emissora Rede Bandeirantes Radio e Televisão (Band), onde ainda hoje trabalha como atriz no programa Perrengue na Band."
         },
         {
             "title":"Produção",
+            "subtitle":"",
             "desc":"De 2019 a 2021, produziu o Grupo Mamoeiro de Teatro na realização do projeto de extensão 'Leitura dramática de Um Dia Ouvi a Lua em escolas públicas de Campinas” contemplado pelo edital PROEC-PEX (424). Entre 2022 e 2023 foi produtora e social mídia do Projeto In.Cômodos, contemplado pela 12ª edição do Programa Aluno Artista do Serviço de Apoio ao Estudante da Universidade Estadual de Campinas, que contou com uma temporada em Site-Specific da peça 'Os Adultos Estão na Sala” ao fim de 2022 dentro de um apartamento residencial em Campinas. Em 2023, produziu o grupo durante a participação no VII Encontro de Teatro Universitário (ETU), 7º Festival de Teatro de Jundiaí (FESTEJU), XXIV ENEARTE, em Belo Horizonte e no XVIII FITU - Festival Internacional de Teatro Universitário organizado pela Facultad de Artes y Humanidades da Universidad de Caldas, na cidade de Manizes, na Colômbia. Atualmente produz o grupo NORA - Núcleo de Obras de Riso e Amargura."
         },
         {
             "title":"Influencer",
+            "subtitle":"",
             "desc":"Seu primeiro contato com gravação de vídeos para internet se deu através de seu pai, João da Nica, também criador de conteúdo digital desde 2013. Participava de alguns vídeos de humor, conforme se especializava em atuação, além de operar a câmera e editar muitos dos vídeos. Atualmente, gravam muitos conteúdos em colab, principalmente relacionados a viagens que fazem juntos. Em 2019, já somava 10 mil seguidores no Instagram compartilhando seu estilo de vida. Em 2020, iniciou a criação de conteúdo voltada para humor, culinária e posteriormente sobre viagens, sempre com toque de humor e lifestyle. Suas parcerias visam a divulgação de produtos e serviços variados de contratantes locais em Campinas e região, até grandes empresas conhecidas internacionalmente como a Invisalign."
         },
         {
             "title":"Capoeria",
+            "subtitle":"",
             "desc":""
         }
     ]

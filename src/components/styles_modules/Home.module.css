@@ -2,10 +2,11 @@
     display: flex;
     align-items: start;
     justify-content: center;
+    flex-direction: column;
 }
 
 .about {
-    margin-top: 5em;
+    margin: 5em auto 0;
     color: rgb(214, 214, 214);
     display: flex;
     align-items: center;

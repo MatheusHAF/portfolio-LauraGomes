@@ -1,13 +1,17 @@
+import data from '../../../src/db.json'
+console.log(data)
 function Projetos() {
     return (
         <div>
             <h1>Projetos</h1>
             <div>
-                <h2>Teatro</h2>
-                <div>
-                    <p>Sit tempor amet Lorem fugiat quis dolor ad amet do qui sint sint ad.</p>
-                    <container>imgs imgs imgs</container>
+            {data.projetos.map((item, index) => (
+                <div key={index}>
+                    <h2>{item.title}</h2>
+                    <h4>{item.subtitle}</h4>
+                    <p>{item.desc}</p>
                 </div>
+            ))}
             </div>
         </div>
     );
