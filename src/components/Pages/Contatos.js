@@ -1,12 +1,16 @@
 import styles from '../styles_modules/Contato.module.css'
+
+import { FaInstagram, FaFacebook, FaYoutube, FaTiktok, FaWhatsapp } from "react-icons/fa";
+
 function Contatos() {
     return (
         <div className={styles.container}>
             <div className={styles.left}>
-                <h1>Titulo</h1>
-                <p>Magna esse ullamco eiusmod nulla dolore.</p>
-                <h3> Me siga nas redes sociais</h3>
-                <nav>Icones aqui</nav>
+                <p>
+                    Entre em contato comigo enviando um E-mail utilizando o formulário de contato <span>contato.lauragomes@gmail.com</span>,
+                    ou pelas minhas redes sociais.
+                </p>
+                <nav><FaFacebook /> <FaInstagram /> <FaYoutube /><FaTiktok /><FaWhatsapp /></nav>
             </div>
             <div className={styles.right}>
                 <h1>Formulário de Contato</h1>
@@ -28,7 +32,7 @@ function Contatos() {
                         <textarea cols="30" rows="10"></textarea>
                     </nav>
                     <nav>
-                        <input className={styles.submit} type="submit" value='Enviar E-mail'/>
+                        <input className={styles.submit} type="submit" value='Enviar E-mail' />
                     </nav>
                 </form>
             </div>
