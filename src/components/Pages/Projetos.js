@@ -1,18 +1,21 @@
 import data from '../../../src/db.json'
+import styles from '../styles_modules/Projetos.module.css'
 console.log(data)
 function Projetos() {
     return (
-        <div>
+        <div className={styles.container}>
             <h1>Projetos</h1>
-            <div>
+
             {data.projetos.map((item, index) => (
-                <div key={index}>
-                    <h2>{item.title}</h2>
-                    <h4>{item.subtitle}</h4>
-                    <p>{item.desc}</p>
-                </div>
+                <details key={index}>
+                    <summary> {item.title}</summary>
+                    <p>
+                        <h4>{item.subtitle}</h4>
+                        {item.desc}
+                    </p>
+                    <div></div>
+                </details>
             ))}
-            </div>
         </div>
     );
 }

@@ -1,16 +1,37 @@
 .container{
-    padding-top: 2em;
-    position: relative;
-    margin: 0;
-    width: 100vw;
-    text-align: center;
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    margin: 3em 0;
+    padding: 1em;
+    border-radius: 10px;
 }
-.container h1{
+.container details{
+    margin: 1em 0;
+    transition: all 0.7s ease;
+    max-height: 100px;
+    overflow: hidden;
+}
+.container details[open]{
+    max-height: 500px;
+}
+.container summary{
+    transition: 0.5s ease;
+    cursor: pointer;
     color: rgb(255, 187, 0);
+    background-color: rgb(58, 58, 58);
+    padding: 1em;
+    font-size: 21px;
+    font-weight: bold;
 }
-swiper-container::part(bullet-active) {
-    background-color: rgb(255, 0, 234);
+.container details > summary{
+    list-style-type:'ᐅ';
 }
-swiper-container::part(swiper-button-next){
-    background-color: rgb(255, 0, 234);
+.container details[open] > summary{
+    list-style-type:'ᐁ';
+}
+.container details p{
+    margin: 0;
+    padding: 1em;
+    border: 2px solid rgb(58, 58, 58);
+    border-top: 0;
 }
