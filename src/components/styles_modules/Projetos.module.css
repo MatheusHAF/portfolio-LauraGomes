@@ -1,18 +1,38 @@
 .container{
     background-color: rgb(31, 31, 31);
     width: 100%;
-    margin: 3em 0;
-    padding: 1em;
+    max-width: 100%;
+    margin: 3em auto;
     border-radius: 10px;
+}
+.div_projs{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+}
+.container > h1{
+    text-align: center;
+    width: 50%;
+    margin: 1em auto;
+    padding-bottom: 0.5em;
+    color: rgb(255, 187, 0);
+    border-bottom: 2px solid rgb(255, 187, 0);
+    font-size: 38px;
 }
 .container details{
     margin: 1em 0;
     transition: all 0.7s ease;
     max-height: 100px;
     overflow: hidden;
+    width: 100%;
+    border-radius: 10px;
 }
 .container details[open]{
-    max-height: 500px;
+    max-height: 1000px;
 }
 .container summary{
     transition: 0.5s ease;
@@ -33,5 +53,6 @@
     margin: 0;
     padding: 1em;
     border: 2px solid rgb(58, 58, 58);
+    border-radius: 0 0 10px 10px;
     border-top: 0;
 }
