@@ -1,10 +1,20 @@
+.title{
+    text-align: center;
+    width: 30%;
+    font-size: 38px;
+    padding-bottom: 0.5em;
+    margin: 1em auto;
+    color: rgb(255, 187, 0);
+    border-bottom: 1px solid;
+}
 .container{
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(48, 48, 48);
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: left;
+    margin-bottom: 1em;
 }
 .container div{
     width: 98%;
@@ -17,9 +27,13 @@
     align-items: center;
     color: rgb(255, 187, 0);
 }
-.left h2,.right h1{
+.left h2{
     color: rgb(255, 187, 0);
-    text-align: center;
+}
+.right h1{
+    color: rgb(255, 187, 0);
+    text-align: left;
+    width: 100%;
 }
 .right form{
     display: block;
