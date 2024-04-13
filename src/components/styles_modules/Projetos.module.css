@@ -31,6 +31,7 @@
     overflow: hidden;
     width: 100%;
     border-radius: 10px;
+    border: 2px solid rgb(58, 58, 58);
 }
 .container details[open]{
     max-height: 1000px;
@@ -50,10 +51,17 @@
 .container details[open] > summary{
     list-style-type:'ᐁ';
 }
-.container details p{
+.container details > p{
     margin: 0;
     padding: 1em;
-    border: 2px solid rgb(58, 58, 58);
     border-radius: 0 0 10px 10px;
     border-top: 0;
+}
+.card{
+    background-color: red;
+    border: 2px solid rgb(58, 58, 58);
+    width: 300px;
+}
+.card>img{
+    width:100%;
 }

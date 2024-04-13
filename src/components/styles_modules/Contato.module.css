@@ -66,6 +66,9 @@
     color: rgb(255, 187, 0);
     background-color: black;
 }
+.submit:hover{
+    cursor: pointer;
+}
 .left{
     height: 100%;
     display: flex;
