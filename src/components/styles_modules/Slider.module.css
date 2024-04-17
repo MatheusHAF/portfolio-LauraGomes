@@ -1,0 +1,23 @@
+swiper-container{
+    
+}
+.card{
+    background-color: rgb(61, 61, 61);
+    width: 300px;
+    border: 2px solid rgb(255, 187, 0);
+    margin: 1em auto;
+    border-radius: 5px;
+}
+.card img{
+    padding: 2%;
+    width: 96%;
+    height: auto;
+    border-radius: 10px;
+}
+.card p{
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+}
