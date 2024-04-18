@@ -16,7 +16,7 @@ function Projetos() {
                                 <h4>{item.subtitle}</h4>
                                 {item.desc}
                             </p>
-                            <Slider/>
+                            <Slider filter={item.title}/>
                         </details>
                     ))}
                 </div>

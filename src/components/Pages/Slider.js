@@ -18,7 +18,7 @@ import img6 from '../../images/PRODUÇÃO/FESTEJU/00 CAPA.JPG'
 register();
 
 
-function Slider() {
+function Slider({filter}) {
     const [slidesPerView, setSlidesPerView] = useState(4); // Defina o número inicial de slides por visualização
 
     useEffect(() => {
@@ -52,46 +52,53 @@ function Slider() {
             title: 'Okutá Hiipadatiki',
             image: img1,
             direction: 'Direção de Lucienne Guedes (2022)',
-            tags: ['teatro']
+            tags: ['Teatro']
         },
         {
             title: 'Uma Noite',
             image: img3,
             direction: 'Direção de Eduardo Okamoto (2023)',
-            tags: ['teatro']
+            tags: ['Teatro']
         },
         {
             title: 'A Tragédia do Rei Christophe',
             image: img2,
             direction: 'Direção de Verônica Fabrini (2022)',
-            tags: ['teatro']
+            tags: ['Teatro']
         },
         {
             title: 'Ubutuba',
             image: img4,
             direction: '',
-            tags: ['capoeira']
+            tags: ['Capoeira']
         },
         {
             title: 'Lado B',
             image: img5,
             direction: '',
-            tags: ['influencer']
+            tags: ['Influencer']
         },
         {
             title: 'FESTEJU',
             image: img6,
             direction: '',
-            tags: ['producao']
+            tags: ['Producao']
         },
     ]
-
+    const [selectedFilter, setSelectedFilter] = useState('');
+    useEffect(() => {
+        // Define o filtro selecionado quando a prop "filter" mudar
+        setSelectedFilter(filter);
+    }, [filter]);
+    const filteredImages = selectedFilter
+        ? dbcards.filter((image) => image.tags.includes(selectedFilter))
+        : dbcards;
     return (
         <swiper-container
             slides-per-view={`${slidesPerView}`}
             navigation={true} modules={[Navigation]}
         >
-            {dbcards.map((item, index) => (
+            {filteredImages.map((item, index) => (
                 <swiper-slide>
                     <div key={index} className={styles.card}>
                         <img src={item.image} alt={`Capa ${item.title}`} />
