@@ -1,16 +1,19 @@
-// import function to register Swiper custom elements
-import { register} from 'swiper/element/bundle';
-// import required modules
-import { Navigation } from 'swiper/modules';
+import { useState, useEffect } from 'react';
 
+//Swiper
+import { register } from 'swiper/element/bundle';
+import { Navigation } from 'swiper/modules';
 import 'swiper/css/navigation';
 import 'swiper/swiper-bundle.css';
 import styles from '../styles_modules/Slider.module.css'
 
-import { useState, useEffect } from 'react';
+//imagens
 import img1 from '../../images/TEATRO/OKUTÁ/00 capa.jpg'
 import img2 from '../../images/TEATRO/TRAGÉDIA DO REI CRISTOPHE/00 CAPA.JPG'
 import img3 from '../../images/TEATRO/UMA NOITE/00 CAPA.jpg'
+import img4 from '../../images/CAPOEIRA/ubutuba/capa.jpg'
+import img5 from '../../images/INFLUENCER/00 CAPA.jpg'
+import img6 from '../../images/PRODUÇÃO/FESTEJU/00 CAPA.JPG'
 
 register();
 
@@ -45,15 +48,48 @@ function Slider() {
     }, []);
 
     const dbcards = [
-        { title: 'Okutá Hiipadatiki', image: img1, direction: 'Direção de Lucienne Guedes (2022)' },
-        { title: 'Uma Noite', image: img3, direction: 'Direção de Eduardo Okamoto (2023)' },
-        { title: 'A Tragédia do Rei Christophe', image: img2,direction: 'Direção de Verônica Fabrini (2022)' },
+        {
+            title: 'Okutá Hiipadatiki',
+            image: img1,
+            direction: 'Direção de Lucienne Guedes (2022)',
+            tags: ['teatro']
+        },
+        {
+            title: 'Uma Noite',
+            image: img3,
+            direction: 'Direção de Eduardo Okamoto (2023)',
+            tags: ['teatro']
+        },
+        {
+            title: 'A Tragédia do Rei Christophe',
+            image: img2,
+            direction: 'Direção de Verônica Fabrini (2022)',
+            tags: ['teatro']
+        },
+        {
+            title: 'Ubutuba',
+            image: img4,
+            direction: '',
+            tags: ['capoeira']
+        },
+        {
+            title: 'Lado B',
+            image: img5,
+            direction: '',
+            tags: ['influencer']
+        },
+        {
+            title: 'FESTEJU',
+            image: img6,
+            direction: '',
+            tags: ['producao']
+        },
     ]
 
     return (
-        <swiper-container 
-        slides-per-view={`${slidesPerView}`}
-        navigation={true} modules={[Navigation]} 
+        <swiper-container
+            slides-per-view={`${slidesPerView}`}
+            navigation={true} modules={[Navigation]}
         >
             {dbcards.map((item, index) => (
                 <swiper-slide>
