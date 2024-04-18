@@ -44,7 +44,7 @@ function Slider() {
         };
     }, []);
 
-    const dbimgsTeatro = [
+    const dbcards = [
         { title: 'Okutá Hiipadatiki', image: img1, direction: 'Direção de Lucienne Guedes (2022)' },
         { title: 'Uma Noite', image: img3, direction: 'Direção de Eduardo Okamoto (2023)' },
         { title: 'A Tragédia do Rei Christophe', image: img2,direction: 'Direção de Verônica Fabrini (2022)' },
@@ -55,7 +55,7 @@ function Slider() {
         slides-per-view={`${slidesPerView}`}
         navigation={true} modules={[Navigation]} 
         >
-            {dbimgsTeatro.map((item, index) => (
+            {dbcards.map((item, index) => (
                 <swiper-slide>
                     <div key={index} className={styles.card}>
                         <img src={item.image} alt={`Capa ${item.title}`} />
