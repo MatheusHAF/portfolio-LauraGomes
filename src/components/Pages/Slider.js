@@ -82,7 +82,7 @@ function Slider({filter}) {
             title: 'FESTEJU',
             image: img6,
             direction: '',
-            tags: ['Producao']
+            tags: ['Produção']
         },
     ]
     const [selectedFilter, setSelectedFilter] = useState('');
