@@ -4,19 +4,22 @@ swiper-container{
 .card{
     background-color: rgb(61, 61, 61);
     width: 300px;
-    border: 2px solid rgb(255, 187, 0);
     margin: 1em auto;
     border-radius: 5px;
+    text-align: left;
+    box-shadow: 0 0 5px rgb(255, 187, 0);
 }
 .card img{
-    padding: 2%;
-    width: 96%;
+    width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 5px 5px 0 0;
 }
-.card p{
+.card>div{
+    padding: 0 10px 10px 5px;
+}
+.card h2{
     text-align: center;
-    color: white;
+    color: rgb(255, 187, 0);
     width: 100%;
     font-size: 20px;
     font-weight: 700;

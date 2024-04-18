@@ -13,7 +13,7 @@ function Contatos() {
                             Entre em contato comigo enviando um E-mail para <span>contato.lauragomes@gmail.com</span>,
                             ou utilize o Formulário de contato.
                         </p>
-                        <h2>Me siga nas Redes Sociais</h2>
+                        <h2>Acesse minhas redes sociais</h2>
                         <nav><FaFacebook /> <FaInstagram /> <FaYoutube /><FaTiktok /><FaWhatsapp /></nav>
                     </div>
                     <div className={styles.right}>
