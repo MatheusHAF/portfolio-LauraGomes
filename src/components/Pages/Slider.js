@@ -19,7 +19,7 @@ register();
 
 
 function Slider({filter}) {
-    const [slidesPerView, setSlidesPerView] = useState(4); // Defina o número inicial de slides por visualização
+    const [slidesPerView, setSlidesPerView] = useState(3); // Defina o número inicial de slides por visualização
 
     useEffect(() => {
         // Verifique o tamanho da tela e atualize o número de slides exibidos conforme necessário
@@ -48,6 +48,12 @@ function Slider({filter}) {
     }, []);
 
     const dbcards = [
+        {
+            title: 'Okutá Hiipadatiki',
+            image: img1,
+            direction: 'Direção de Lucienne Guedes (2022)',
+            tags: ['Teatro']
+        },
         {
             title: 'Okutá Hiipadatiki',
             image: img1,
