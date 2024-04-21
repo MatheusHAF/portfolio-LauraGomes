@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-
+import { Link } from 'react-router-dom';
 //Swiper
 import { register } from 'swiper/element/bundle';
 import { Navigation } from 'swiper/modules';
@@ -8,12 +8,13 @@ import 'swiper/swiper-bundle.css';
 import styles from '../styles_modules/Slider.module.css'
 
 //imagens
-import img1 from '../../images/TEATRO/OKUTÁ/00 capa.jpg'
-import img2 from '../../images/TEATRO/TRAGÉDIA DO REI CRISTOPHE/00 CAPA.JPG'
-import img3 from '../../images/TEATRO/UMA NOITE/00 CAPA.jpg'
-import img4 from '../../images/CAPOEIRA/ubutuba/capa.jpg'
-import img5 from '../../images/INFLUENCER/00 CAPA.jpg'
-import img6 from '../../images/PRODUÇÃO/FESTEJU/00 CAPA.JPG'
+import img1 from '../../images/Teatro/Okutá Hiipadatiki/00 capa.jpg'
+import img2 from '../../images/Teatro/A Tragédia do Rei Christophe/00 CAPA.jpg'
+import img3 from '../../images/Teatro/Uma Noite/00 CAPA.jpg'
+import img4 from '../../images/Capoeira/Ubutuba/capa.jpg'
+import img5 from '../../images/Influencer/Lado B/00 CAPA.jpg'
+import img6 from '../../images/Produção/FESTEJU/00 CAPA.jpg'
+import img7 from '../../images/Capoeira/Menino Chorão/00 CAPA.jpg'
 
 register();
 
@@ -73,6 +74,12 @@ function Slider({filter}) {
             tags: ['Capoeira']
         },
         {
+            title: 'Menino Chorão',
+            image: img7,
+            direction: '',
+            tags: ['Capoeira']
+        },
+        {
             title: 'Lado B',
             image: img5,
             direction: '',
@@ -100,13 +107,15 @@ function Slider({filter}) {
         >
             {filteredImages.map((item, index) => (
                 <swiper-slide>
-                    <div key={index} className={styles.card}>
-                        <img src={item.image} alt={`Capa ${item.title}`} />
-                        <div>
-                            <h2>{item.title}</h2>
-                            <p>{item.direction}</p>
+                    <Link to={`/Projeto/${item.tags}-${item.title}`}>
+                        <div key={index} className={styles.card}>
+                            <img src={item.image} alt={`Capa ${item.title}`} />
+                            <div>
+                                <h2>{item.title}</h2>
+                                <p>{item.direction}</p>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                 </swiper-slide>
             ))}
         </swiper-container>
