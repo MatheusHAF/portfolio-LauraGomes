@@ -1,9 +1,6 @@
 swiper-container{
     --swiper-navigation-color: rgb(255, 187, 0);
 }
-swiper-slide{
-    max-width: 350px;
-}
 .card{
     background-color: rgb(61, 61, 61);
     width: 300px;

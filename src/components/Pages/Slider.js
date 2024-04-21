@@ -55,12 +55,6 @@ function Slider({filter}) {
             tags: ['Teatro']
         },
         {
-            title: 'Okutá Hiipadatiki',
-            image: img1,
-            direction: 'Direção de Lucienne Guedes (2022)',
-            tags: ['Teatro']
-        },
-        {
             title: 'Uma Noite',
             image: img3,
             direction: 'Direção de Eduardo Okamoto (2023)',
