@@ -9,6 +9,10 @@ swiper-container{
     text-align: left;
     box-shadow: 0 0 5px rgb(255, 187, 0);
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .card img{
     width: 100%;
     height: auto;
