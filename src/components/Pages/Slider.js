@@ -11,10 +11,8 @@ import styles from '../styles_modules/Slider.module.css'
 import img1 from '../../images/Teatro/Okutá Hiipadatiki/00 capa.jpg'
 import img2 from '../../images/Teatro/A Tragédia do Rei Christophe/00 CAPA.jpg'
 import img3 from '../../images/Teatro/Uma Noite/00 CAPA.jpg'
-import img4 from '../../images/Capoeira/Ubutuba/capa.jpg'
 import img5 from '../../images/Influencer/Lado B/00 CAPA.jpg'
 import img6 from '../../images/Produção/FESTEJU/00 CAPA.jpg'
-import img7 from '../../images/Capoeira/Menino Chorão/00 CAPA.jpg'
 
 register();
 
@@ -66,18 +64,6 @@ function Slider({filter}) {
             image: img2,
             direction: 'Direção de Verônica Fabrini (2022)',
             tags: ['Teatro']
-        },
-        {
-            title: 'Ubutuba',
-            image: img4,
-            direction: '',
-            tags: ['Capoeira']
-        },
-        {
-            title: 'Menino Chorão',
-            image: img7,
-            direction: '',
-            tags: ['Capoeira']
         },
         {
             title: 'Lado B',

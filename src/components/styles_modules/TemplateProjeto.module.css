@@ -1,3 +1,7 @@
+.projetocontainer{
+    background-color: red;
+    width: 500px;
+}
 .projetocontainer img{
     width: 100px;
 }
