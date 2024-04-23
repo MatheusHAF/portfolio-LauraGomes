@@ -17,38 +17,44 @@ export default function TemplateProjeto({ pacote }) {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
     return (
-        <div className={styles.projetocontainer}>
-            <Swiper
-
-                spaceBetween={1}
-                navigation={true}
-                //thumbs={{ swiper: thumbsSwiper }}
-                modules={[FreeMode, Navigation, Thumbs]}
-                className={styles.mySwiper2}
-            >
-                {pacote.imgs.map((item) => (
-                    <SwiperSlide>
-                        <img src={item.url} alt={`Capa ${item.alt}`} />
-                    </SwiperSlide>
-                ))}
-            </Swiper>
-            <Swiper
-                onSwiper={setThumbsSwiper}
-                loop={true}
-                spaceBetween={1}
-                slidesPerView={4}
-                freeMode={true}
-                watchSlidesProgress={true}
-                modules={[FreeMode, Navigation, Thumbs]}
-                className={styles.mySwiper}
-            >
-                {pacote.imgs.map((item, index) => (
-                    <SwiperSlide>
-                        <div key={index}>
+        <div className={styles.container}>
+            <div className={styles.left}>
+                <Swiper
+                    navigation={true}
+                    thumbs={{swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null}}
+                    modules={[FreeMode, Navigation, Thumbs]}
+                    className={styles.mySwiper2}
+                >
+                    {pacote.imgs.map((item) => (
+                        <SwiperSlide>
                             <img src={item.url} alt={`Capa ${item.alt}`} />
-                        </div>
-                    </SwiperSlide>
-                ))}
-            </Swiper>
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
+            <div className={styles.right}>
+                <div className={styles.top}>
+                    <Swiper
+                        onSwiper={setThumbsSwiper}
+                        loop={true}
+                        slidesPerView={4}
+                        freeMode={true}
+                        watchSlidesProgress={true}
+                        modules={[FreeMode, Navigation, Thumbs]}
+                        className={styles.mySwiper}
+                    >
+                        {pacote.imgs.map((item, index) => (
+                            <SwiperSlide>
+                                <div key={index}>
+                                    <img src={item.url} alt={`Capa ${item.alt}`} />
+                                </div>
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
+                </div>
+                <div className={styles.bottom}>
+                        <p>Labore occaecat enim aliquip id id culpa nulla labore. Commodo non nostrud excepteur cillum sint do commodo. Velit proident quis nulla sunt. Velit aliqua consectetur minim id do qui pariatur. Enim esse reprehenderit elit esse aliqua est labore do ullamco. Occaecat duis officia pariatur dolor nisi. Consequat voluptate commodo veniam cupidatat sint officia nostrud tempor velit veniam in elit.</p>
+                </div>
+            </div>
         </div>);
 }

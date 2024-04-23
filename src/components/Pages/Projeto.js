@@ -107,7 +107,7 @@ function Projeto() {
     console.log(pacote)
     // return
     return (
-        <div>
+        <div className={styles.container}>
             <h1>{name}</h1>
             <TemplateProjeto pacote={pacote}/>
         </div>
