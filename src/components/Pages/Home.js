@@ -19,7 +19,6 @@ function Home() {
                     <p><a href=""><FaFacebook /></a> <a href=""><FaInstagram /></a> <a href=""><FaYoutube /></a> <a href=""><FaLinkedin /></a></p>
                 </div>
             </div>
-            <Projetos title="Projetos"/>
         </div>
     );
 }

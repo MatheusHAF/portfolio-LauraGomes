@@ -3,7 +3,7 @@ function Sobre() {
     return(
         <div className={styles.container}>
             <div className={styles.main}>
-                <h1>Sobre</h1>
+                <h1>Uma breve linha do tempo sobre mim</h1>
             </div>
         </div>
     );
