@@ -8,11 +8,9 @@ function Home() {
         <div className={`${styles.main}`}>
             <div className={styles.about}>
                 <p>
-                    Oi, me chamo <span>Laura Gomes</span> e não uso crack a 7 dias! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus id mi ultrices, venenatis ligula ut, consequat erat. Aenean quis ultricies lacus. Quisque condimentum vel odio eget tristique.
-                    Nullam eget lacus et libero porta egestas. Donec lobortis convallis lacus eu tempus. Praesent non consequat leo. Aenean id rutrum dolor.
-                    Vestibulum ut molestie augue.
-                    Phasellus id est.
+                Oi! Me chamo <span>Laura Gomes</span>! Tenho 23 anos, sou atriz, produtora e criadora de conteúdo nas redes sociais.
+                 Estou me formando em Artes Cênicas pela UNICAMP, trabalho como atriz no programa Perrengue na Band na TV Bandeirantes (Band) e produzo um grupo de teatro chamado NORA (Núcleo de Obras de Riso e Amargura). Sou apaixonada por capoeira, amo cozinhar, viajar, subir montanhas e acampar. Sou artista, extrovertida, comunicativa e aprendo rápido.  
+                 Aqui você vai poder conhecer um pouco mais sobre meu trabalho e minha história!
                 </p>
                 <div>
                     <img src={Laura} alt="Foto Laura Gomes" />
