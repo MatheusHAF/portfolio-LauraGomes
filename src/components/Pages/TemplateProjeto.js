@@ -1,5 +1,5 @@
 
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -11,7 +11,7 @@ import 'swiper/css/thumbs';
 import styles from "../styles_modules/TemplateProjeto.module.css"
 
 // import required modules
-import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
+import {Navigation, Thumbs } from 'swiper/modules';
 
 export default function TemplateProjeto({ pacote }) {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -21,8 +21,9 @@ export default function TemplateProjeto({ pacote }) {
             <div className={styles.left}>
                 <Swiper
                     navigation={true}
+                    slidesPerView={1}
                     thumbs={{swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null}}
-                    modules={[FreeMode, Navigation, Thumbs]}
+                    //modules={[Navigation, Thumbs]}
                     className={styles.mySwiper2}
                 >
                     {pacote.imgs.map((item) => (
@@ -36,16 +37,13 @@ export default function TemplateProjeto({ pacote }) {
                 <div className={styles.top}>
                     <Swiper
                         onSwiper={setThumbsSwiper}
-                        loop={true}
                         slidesPerView={4}
-                        freeMode={true}
-                        watchSlidesProgress={true}
-                        modules={[FreeMode, Navigation, Thumbs]}
+                        modules={[Thumbs]}
                         className={styles.mySwiper}
                     >
                         {pacote.imgs.map((item, index) => (
                             <SwiperSlide>
-                                <div key={index}>
+                                <div>
                                     <img src={item.url} alt={`Capa ${item.alt}`} />
                                 </div>
                             </SwiperSlide>
