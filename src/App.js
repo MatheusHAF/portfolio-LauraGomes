@@ -14,7 +14,6 @@ import Galerias from './components/Pages/Galerias';
 function App() {
   return (
     <>
-      <Router>
         <Navbar />
         <Container customClass="min-height">
           <Routes>
@@ -27,7 +26,6 @@ function App() {
           </Routes>
         </Container>
         <Footer/>
-      </Router>
     </>
   );
 }
