@@ -4,15 +4,10 @@ import TemplateProjeto from "./TemplateProjeto";
 
 //teatro
 import imgokuta1 from "../../images/Teatro/Okutá Hiipadatiki/00 capa.jpg"
-import imgokuta2 from "../../images/Teatro/Okutá Hiipadatiki/IMG_5425.jpg"
+import imgokuta2 from "../../images/Teatro/Okutá Hiipadatiki/4ede58ff-2806-41e3-a8c0-efea5ea18629.jpg"
 import imgokuta3 from "../../images/Teatro/Okutá Hiipadatiki/IMG_5429.jpg"
 import imgokuta4 from "../../images/Teatro/Okutá Hiipadatiki/IMG_5450.jpg"
-import imgokuta5 from "../../images/Teatro/Okutá Hiipadatiki/IMG_5465.jpg"
-import imgokuta6 from "../../images/Teatro/Okutá Hiipadatiki/IMG_5466.jpg"
-import imgokuta7 from "../../images/Teatro/Okutá Hiipadatiki/IMG_5476.jpg"
-import imgokuta8 from "../../images/Teatro/Okutá Hiipadatiki/IMG_5729.jpg"
-import imgokuta9 from "../../images/Teatro/Okutá Hiipadatiki/IMG_5792.jpg"
-import imgokuta10 from "../../images/Teatro/Okutá Hiipadatiki/IMG_5857.jpg"
+import imgokuta5 from "../../images/Teatro/Okutá Hiipadatiki/IMG_5466.jpg"
 
 import imgumanoite1 from "../../images/Teatro/Uma Noite/00 CAPA.jpg"
 import imgumanoite2 from "../../images/Teatro/Uma Noite/IMG_8945.jpg"
@@ -22,11 +17,16 @@ import imgumanoite5 from "../../images/Teatro/Uma Noite/IMG_9311.jpg"
 import imgumanoite6 from "../../images/Teatro/Uma Noite/IMG_9495.jpg"
 
 import imgrei1 from "../../images/Teatro/A Tragédia do Rei Christophe/00 CAPA.jpg"
-import imgrei2 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_6548 (1).jpg"
-import imgrei3 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_6622.jpg"
-import imgrei4 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_6783 (1).jpg"
-import imgrei5 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_6792.jpg"
-import imgrei6 from "../../images/Teatro/A Tragédia do Rei Christophe/PIMV.png"
+import imgrei2 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_3924.jpg"
+import imgrei3 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_4135.jpg"
+import imgrei4 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_4141.jpg"
+import imgrei5 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_4142.jpg"
+import imgrei6 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_4143.jpg"
+import imgrei7 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_4146.jpg"
+import imgrei8 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_6548 (1).jpg"
+import imgrei9 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_6622.jpg"
+import imgrei10 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_6783 (1).jpg"
+import imgrei11 from "../../images/Teatro/A Tragédia do Rei Christophe/PIMV.png"
 
 //influencer
 import imgladob1 from "../../images/Influencer/Lado B/00 CAPA.jpg"
@@ -45,11 +45,6 @@ const okuta = [
     { url: imgokuta3, alt: 'Okutá Hiipadatiki'},
     { url: imgokuta4, alt: 'Okutá Hiipadatiki'},
     { url: imgokuta5, alt: 'Okutá Hiipadatiki'},
-    { url: imgokuta6, alt: 'Okutá Hiipadatiki'},
-    { url: imgokuta7, alt: 'Okutá Hiipadatiki'},
-    { url: imgokuta8, alt: 'Okutá Hiipadatiki'},
-    { url: imgokuta9, alt: 'Okutá Hiipadatiki'},
-    { url: imgokuta10, alt: 'Okutá Hiipadatiki'}
 ];
 
 const umanoite = [
@@ -66,7 +61,12 @@ const rei = [
     { url: imgrei3, alt: 'A Tragédia do Rei Christophe'},
     { url: imgrei4, alt: 'A Tragédia do Rei Christophe'},
     { url: imgrei5, alt: 'A Tragédia do Rei Christophe'},
-    { url: imgrei6, alt: 'A Tragédia do Rei Christophe'}
+    { url: imgrei6, alt: 'A Tragédia do Rei Christophe'},
+    { url: imgrei7, alt: 'A Tragédia do Rei Christophe'},
+    { url: imgrei8, alt: 'A Tragédia do Rei Christophe'},
+    { url: imgrei9, alt: 'A Tragédia do Rei Christophe'},
+    { url: imgrei10, alt: 'A Tragédia do Rei Christophe'},
+    { url: imgrei11, alt: 'A Tragédia do Rei Christophe'},
 ]
 const ladob = [
     { url: imgladob1, alt: 'Lado B'},
