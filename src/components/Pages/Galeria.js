@@ -13,7 +13,7 @@ const Galeria = ({ images }) => {
                 >
                     <Masonry gutter="10px">
                         {
-                            images.map((image, index) => (
+                            images.map((image,index) => (
 
                                 <div key={index} className={styles.card}>
                                     <img
@@ -22,9 +22,6 @@ const Galeria = ({ images }) => {
                                         className={styles.image}
                                     />
                                     <div className={styles.overlay}></div>
-                                    <div className={styles.text}>
-                                        {image.alt}
-                                    </div>
                                 </div>
                             ))
                         }

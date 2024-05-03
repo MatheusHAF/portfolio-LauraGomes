@@ -42,7 +42,7 @@
     cursor: pointer;
 }
 .card:hover .image {
-    filter: blur(4px); /* Aplica o efeito de blur à imagem */
+    filter: blur(0.3px); /* Aplica o efeito de blur à imagem */
 }
 .overlay {
     position: absolute;
