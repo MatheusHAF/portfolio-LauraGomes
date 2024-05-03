@@ -1,5 +1,5 @@
 import styles from "../styles_modules/Projeto.module.css";
-import { useParams } from "react-router-dom";
+import { useParams,Link } from "react-router-dom";
 import TemplateProjeto from "./TemplateProjeto";
 
 //teatro
@@ -27,6 +27,11 @@ import imgrei8 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_6548 
 import imgrei9 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_6622.jpg"
 import imgrei10 from "../../images/Teatro/A Tragédia do Rei Christophe/IMG_6783 (1).jpg"
 import imgrei11 from "../../images/Teatro/A Tragédia do Rei Christophe/PIMV.png"
+
+import msc1 from "../../images/Teatro/Grease - O Musical/CAPA.jpg"
+import msc2 from "../../images/Teatro/Grease - O Musical/IMG_9572.jpg"
+import msc3 from "../../images/Teatro/Grease - O Musical/IMG_9573.jpg"
+import msc4 from "../../images/Teatro/Grease - O Musical/IMG_9574.jpg"
 
 //influencer
 import imgladob1 from "../../images/Influencer/Lado B/00 CAPA.jpg"
@@ -68,6 +73,12 @@ const rei = [
     { url: imgrei10, alt: 'A Tragédia do Rei Christophe'},
     { url: imgrei11, alt: 'A Tragédia do Rei Christophe'},
 ]
+const musical = [
+    { url: msc1, alt: 'Grease - O Musical'},
+    { url: msc2, alt: 'Grease - O Musical'},
+    { url: msc3, alt: 'Grease - O Musical'},
+    { url: msc4, alt: 'Grease - O Musical'},
+]
 const ladob = [
     { url: imgladob1, alt: 'Lado B'},
     { url: imgladob2, alt: 'Lado B'},
@@ -85,7 +96,7 @@ function Projeto() {
     const { id } = useParams();
 
     // Construindo o caminho da pasta dinamicamente
-    const [folder, name] = id.split('-');
+    const [folder, name] = id.split('|');
     let imgs = {}
     let pacote ={name,imgs}
     if (name == 'Okutá Hiipadatiki') {
@@ -103,11 +114,15 @@ function Projeto() {
     else if(name == 'FESTEJU'){
         pacote.imgs = FESTEJU
     }
+    else if(name == 'Grease - O Musical'){
+        pacote.imgs = musical
+    }
 
     console.log(pacote)
     // return
     return (
         <div className={styles.container}>
+            <Link to="../Projetos"><nav>Voltar</nav></Link>
             <h1>{name}</h1>
             <TemplateProjeto pacote={pacote}/>
         </div>

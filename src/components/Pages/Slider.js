@@ -13,6 +13,7 @@ import img2 from '../../images/Teatro/A Tragédia do Rei Christophe/00 CAPA.jpg'
 import img3 from '../../images/Teatro/Uma Noite/00 CAPA.jpg'
 import img5 from '../../images/Influencer/Lado B/00 CAPA.jpg'
 import img6 from '../../images/Produção/FESTEJU/00 CAPA.jpg'
+import img7 from '../../images/Teatro/Grease - O Musical/CAPA.jpg'
 
 register();
 
@@ -66,6 +67,12 @@ function Slider({filter}) {
             tags: ['Teatro']
         },
         {
+            title: 'Grease - O Musical',
+            image: img7,
+            direction: 'Direção ---',
+            tags: ['Teatro']
+        },
+        {
             title: 'Lado B',
             image: img5,
             direction: '',
@@ -93,7 +100,7 @@ function Slider({filter}) {
         >
             {filteredImages.map((item, index) => (
                 <swiper-slide>
-                    <Link to={`/Projeto/${item.tags}-${item.title}`}>
+                    <Link to={`/Projeto/${item.tags}|${item.title}`}>
                         <div key={index} className={styles.card}>
                             <img src={item.image} alt={`Capa ${item.title}`} />
                             <div>

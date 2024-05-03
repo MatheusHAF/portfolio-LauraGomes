@@ -1,7 +1,7 @@
 .main {
     display: flex;
     align-items: start;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
 }
 
@@ -73,5 +73,8 @@
     }
     .about div{
         width: 100%;
+    }
+    .main{
+        padding-bottom: 3em;
     }
 }
