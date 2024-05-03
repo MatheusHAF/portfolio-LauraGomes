@@ -33,6 +33,22 @@ import msc2 from "../../images/Teatro/Grease - O Musical/IMG_9572.jpg"
 import msc3 from "../../images/Teatro/Grease - O Musical/IMG_9573.jpg"
 import msc4 from "../../images/Teatro/Grease - O Musical/IMG_9574.jpg"
 
+import lua1 from "../../images/Teatro/Um Dia Ouvi a Lua/CAPA.jpg"
+import lua2 from "../../images/Teatro/Um Dia Ouvi a Lua/IMG_1844.jpg"
+import lua3 from "../../images/Teatro/Um Dia Ouvi a Lua/IMG_9386.jpg"
+import lua4 from "../../images/Teatro/Um Dia Ouvi a Lua/WhatsApp Image 2021-04-19 at 16.17.41 (6).jpeg"
+
+import op1 from "../../images/Teatro/Ópera do Malandro/CAPA.jpg"
+import op2 from "../../images/Teatro/Ópera do Malandro/IMG_9578.jpg"
+import op3 from "../../images/Teatro/Ópera do Malandro/IMG_9579.jpg"
+
+
+import al1 from "../../images/Teatro/O Alienista/capa.jpg"
+import al2 from "../../images/Teatro/O Alienista/IMG_9570.jpg"
+import al3 from "../../images/Teatro/O Alienista/IMG_9575.jpg"
+import al4 from "../../images/Teatro/O Alienista/IMG_9576.jpg"
+import al5 from "../../images/Teatro/O Alienista/IMG_9580.png"
+
 //influencer
 import imgladob1 from "../../images/Influencer/Lado B/00 CAPA.jpg"
 import imgladob2 from "../../images/Influencer/Lado B/IMG_7619.jpg"
@@ -79,6 +95,25 @@ const musical = [
     { url: msc3, alt: 'Grease - O Musical'},
     { url: msc4, alt: 'Grease - O Musical'},
 ]
+const opera = [
+    { url: op1, alt: 'Ópera do Malandro'},
+    { url: op2, alt: 'Ópera do Malandro'},
+    { url: op3, alt: 'Ópera do Malandro'},
+]
+const lua = [
+    { url: lua1, alt: 'Um Dia Ouvi a Lua'},
+    { url: lua2, alt: 'Um Dia Ouvi a Lua'},
+    { url: lua3, alt: 'Um Dia Ouvi a Lua'},
+    { url: lua4, alt: 'Um Dia Ouvi a Lua'},
+]
+const alienista = [
+    { url: al1, alt: 'O Alienista'},
+    { url: al2, alt: 'O Alienista'},
+    { url: al3, alt: 'O Alienista'},
+    { url: al4, alt: 'O Alienista'},
+    { url: al4, alt: 'O Alienista'},
+    { url: al5, alt: 'O Alienista'},
+]
 const ladob = [
     { url: imgladob1, alt: 'Lado B'},
     { url: imgladob2, alt: 'Lado B'},
@@ -116,6 +151,15 @@ function Projeto() {
     }
     else if(name == 'Grease - O Musical'){
         pacote.imgs = musical
+    }
+    else if(name == 'O Alienista'){
+        pacote.imgs = alienista
+    }
+    else if(name == 'Ópera do Malandro'){
+        pacote.imgs = opera
+    }
+    else if(name == 'Um Dia Ouvi a Lua'){
+        pacote.imgs = lua
     }
 
     console.log(pacote)

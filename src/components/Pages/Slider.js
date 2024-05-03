@@ -14,6 +14,9 @@ import img3 from '../../images/Teatro/Uma Noite/00 CAPA.jpg'
 import img5 from '../../images/Influencer/Lado B/00 CAPA.jpg'
 import img6 from '../../images/Produção/FESTEJU/00 CAPA.jpg'
 import img7 from '../../images/Teatro/Grease - O Musical/CAPA.jpg'
+import img8 from '../../images/Teatro/O Alienista/capa.jpg'
+import img9 from '../../images/Teatro/Ópera do Malandro/CAPA.jpg'
+import img10 from '../../images/Teatro/Um Dia Ouvi a Lua/CAPA.jpg'
 
 register();
 
@@ -83,6 +86,24 @@ function Slider({filter}) {
             image: img6,
             direction: '',
             tags: ['Produção']
+        },
+        {
+            title: 'O Alienista',
+            image: img8,
+            direction: '--------------',
+            tags: ['Teatro']
+        },
+        {
+            title: 'Ópera do Malandro',
+            image: img9,
+            direction: '--------------',
+            tags: ['Teatro']
+        },
+        {
+            title: 'Um Dia Ouvi a Lua',
+            image: img10,
+            direction: '--------------',
+            tags: ['Teatro']
         },
     ]
     const [selectedFilter, setSelectedFilter] = useState('');
