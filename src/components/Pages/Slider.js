@@ -119,9 +119,9 @@ function Slider({filter}) {
             tags: ['Influencer']
         },
         {
-            title: 'Aluno Artista',
+            title: 'XII Programa Aluno Artista do Serviço de Apoio ao Estudante',
             image: img12,
-            direction: ' ',
+            direction: 'Produtora do Projeto In.Cômodos em "Os Adultos Estão na Sala" (Campinas, 2022)',
             tags: ['Produção']
         },
         {
@@ -133,13 +133,13 @@ function Slider({filter}) {
         {
             title: 'XXIV ENEARTE',
             image: img14,
-            direction: 'Projeto: ‘Os Adultos Estão na Sala’ (Belo Horizonte, 2023)',
+            direction: 'Projeto In.Cômodos: ‘Os Adultos Estão na Sala’ (Belo Horizonte, 2023)',
             tags: ['Produção']
         },
         {
             title: 'VII Encontro de Teatro Universitário (ETU)',
             image: img15,
-            direction: 'Projeto: ‘Os Adultos Estão na Sala’ (São Paulo, 2023)',
+            direction: 'Projeto In.Cômodos: ‘Os Adultos Estão na Sala’ (São Paulo, 2023)',
             tags: ['Produção']
         },
         {
@@ -149,9 +149,9 @@ function Slider({filter}) {
             tags: ['Produção']
         },
         {
-            title: 'In.Comodos Centro Academico IG',
+            title: 'CENTRO ACADÊMICO DE GEOLOGIA - UNICAMP',
             image: img17,
-            direction: '-----',
+            direction: 'Projeto: ‘Os Adultos Estão na Sala’ (Campinas, 2023)',
             tags: ['Produção']
         },
     ]

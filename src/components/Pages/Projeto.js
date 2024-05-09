@@ -147,12 +147,12 @@ const umanoite = [
     { url: imgumanoite6, alt: 'Uma Noite'}
 ]
 const alunoartista = [
-    { url: ala1, alt: 'Aluno Artista'},
-    { url: ala2, alt: 'Aluno Artista'},
-    { url: ala3, alt: 'Aluno Artista'},
-    { url: ala4, alt: 'Aluno Artista'},
-    { url: ala5, alt: 'Aluno Artista'},
-    { url: ala6, alt: 'Aluno Artista'}
+    { url: ala1, alt: 'XII Programa Aluno Artista do Serviço de Apoio ao Estudante'},
+    { url: ala2, alt: 'XII Programa Aluno Artista do Serviço de Apoio ao Estudante'},
+    { url: ala3, alt: 'XII Programa Aluno Artista do Serviço de Apoio ao Estudante'},
+    { url: ala4, alt: 'XII Programa Aluno Artista do Serviço de Apoio ao Estudante'},
+    { url: ala5, alt: 'XII Programa Aluno Artista do Serviço de Apoio ao Estudante'},
+    { url: ala6, alt: 'XII Programa Aluno Artista do Serviço de Apoio ao Estudante'}
 ]
 const rei = [
     { url: imgrei1, alt: 'A Tragédia do Rei Christophe'},
@@ -209,11 +209,11 @@ const maomeiro = [
     { url: mm6, alt: 'Grupo Mamoeiro de Teatro PROEC-PEX (424)'},
 ]
 const caig = [
-    { url: ig1, alt: 'In.Comodos Centro Academico IG'},
-    { url: ig2, alt: 'In.Comodos Centro Academico IG'},
-    { url: ig3, alt: 'In.Comodos Centro Academico IG'},
-    { url: ig4, alt: 'In.Comodos Centro Academico IG'},
-    { url: ig5, alt: 'In.Comodos Centro Academico IG'},
+    { url: ig1, alt: 'CENTRO ACADÊMICO DE GEOLOGIA - UNICAMP'},
+    { url: ig2, alt: 'CENTRO ACADÊMICO DE GEOLOGIA - UNICAMP'},
+    { url: ig3, alt: 'CENTRO ACADÊMICO DE GEOLOGIA - UNICAMP'},
+    { url: ig4, alt: 'CENTRO ACADÊMICO DE GEOLOGIA - UNICAMP'},
+    { url: ig5, alt: 'CENTRO ACADÊMICO DE GEOLOGIA - UNICAMP'},
 ]
 const FESTEJU = [
     { url: imgfesteju1, alt: 'FESTEJU'},
@@ -262,7 +262,7 @@ function Projeto() {
     else if(name == 'Invisalign'){
         pacote.imgs = invisalign
     }
-    else if(name == 'Aluno Artista'){
+    else if(name == 'XII Programa Aluno Artista do Serviço de Apoio ao Estudante'){
         pacote.imgs = alunoartista
     }
     else if(name == 'XVIII FITU - Festival Internacional de Teatro Universitário'){
@@ -277,7 +277,7 @@ function Projeto() {
     else if(name == 'Grupo Mamoeiro de Teatro PROEC-PEX (424)'){
         pacote.imgs = maomeiro
     }
-    else if(name == 'In.Comodos Centro Academico IG'){
+    else if(name == 'CENTRO ACADÊMICO DE GEOLOGIA - UNICAMP'){
         pacote.imgs = caig
     }
     // return

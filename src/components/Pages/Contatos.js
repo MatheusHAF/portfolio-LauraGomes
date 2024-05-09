@@ -1,4 +1,5 @@
 import styles from '../styles_modules/Contato.module.css'
+import Formulario from './Formulario'
 
 import { FaInstagram, FaFacebook, FaYoutube, FaTiktok, FaWhatsapp } from "react-icons/fa";
 
@@ -34,27 +35,7 @@ function Contatos() {
                     </div>
                     <div className={styles.right}>
                         <h1>Formulário de Contato</h1>
-                        <form>
-                            <nav>
-                                <label>Nome: </label>
-                                <input type="text" />
-                            </nav>
-                            <nav>
-                                <label>Assunto: </label>
-                                <input type="text" />
-                            </nav>
-                            <nav>
-                                <label>Seu E-mail: </label>
-                                <input type="email" />
-                            </nav>
-                            <nav>
-                                <label>Mensagem: </label>
-                                <textarea cols="30" rows="10"></textarea>
-                            </nav>
-                            <nav>
-                                <input className={styles.submit} type="submit" value='Enviar E-mail' />
-                            </nav>
-                        </form>
+                        <Formulario/>
                     </div>
                 </div>
             </div>
