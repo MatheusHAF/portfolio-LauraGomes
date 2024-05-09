@@ -128,7 +128,7 @@ function Slider({filter}) {
         >
             {filteredImages.map((item, index) => (
                 <swiper-slide>
-                    <Link to={`/Projeto/${item.tags}|${item.title}`}>
+                    <Link to={`/Projeto/${item.tags}|${item.title}|${item.direction}`}>
                         <div key={index} className={styles.card}>
                             <img src={item.image} alt={`Capa ${item.title}`} />
                             <div>

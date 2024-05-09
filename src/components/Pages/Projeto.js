@@ -136,49 +136,39 @@ function Projeto() {
     const { id } = useParams();
 
     // Construindo o caminho da pasta dinamicamente
-    const [folder, name] = id.split('|');
+    const [folder, name, direction] = id.split('|');
     let imgs = {}
-    let desc = {}
+    let desc = direction
     let pacote ={name,imgs,desc}
     if (name == 'Okutá Hiipadatiki') {
         pacote.imgs = okuta
-        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'Uma Noite'){
         pacote.imgs = umanoite
-        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'A Tragédia do Rei Christophe'){
         pacote.imgs = rei
-        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'Lado B'){
         pacote.imgs = ladob
-        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'FESTEJU'){
         pacote.imgs = FESTEJU
-        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'Grease - O Musical'){
         pacote.imgs = musical
-        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'O Alienista'){
         pacote.imgs = alienista
-        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'Ópera do Malandro'){
         pacote.imgs = opera
-        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'Um Dia Ouvi a Lua'){
         pacote.imgs = lua
-        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'Invisalign'){
         pacote.imgs = invisalign
-        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
 
     console.log(pacote)
