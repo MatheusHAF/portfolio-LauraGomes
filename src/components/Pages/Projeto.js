@@ -58,12 +58,57 @@ import imgladob3 from "../../images/Influencer/Lado B/IMG_7637.jpg"
 import invisa1 from "../../images/Influencer/Invisalign/Galeria .jpeg"
 
 //producao
+//festeju
 import imgfesteju1 from "../../images/Produção/FESTEJU/CAPA.jpg"
 import imgfesteju2 from "../../images/Produção/FESTEJU/DSCF5132 (1).jpg"
 import imgfesteju3 from "../../images/Produção/FESTEJU/DSCF5168.jpg"
 import imgfesteju4 from "../../images/Produção/FESTEJU/DSCF5171.jpg"
 import imgfesteju5 from "../../images/Produção/FESTEJU/DSCF5220.jpg"
 import imgfesteju6 from "../../images/Produção/FESTEJU/DSCF5226.jpg"
+
+//aluno artista
+import ala1 from "../../images/Produção/ALUNO ARTISTA/CAPA.jpg"
+import ala2 from "../../images/Produção/ALUNO ARTISTA/Fotógrafo Theo Camargo.jpg"
+import ala3 from "../../images/Produção/ALUNO ARTISTA/Noir-49.jpg"
+import ala4 from "../../images/Produção/ALUNO ARTISTA/PECA-102.jpg"
+import ala5 from "../../images/Produção/ALUNO ARTISTA/PECA-58.jpg"
+import ala6 from "../../images/Produção/ALUNO ARTISTA/POS-PECA-10.jpg"
+
+//colombia
+import cl1 from "../../images/Produção/COLÔMBIA/CAPA.jpg"
+import cl2 from "../../images/Produção/COLÔMBIA/CTRANSMEDIA-FITU2023-LOS-ADULTOS-ESTAN-EN-LA-SALA-27.jpg"
+import cl3 from "../../images/Produção/COLÔMBIA/CTRANSMEDIA-FITU2023-LOS-ADULTOS-ESTAN-EN-LA-SALA-46.jpg"
+import cl4 from "../../images/Produção/COLÔMBIA/CTRANSMEDIA-FITU2023-LOS-ADULTOS-ESTAN-EN-LA-SALA-49.jpg"
+import cl5 from "../../images/Produção/COLÔMBIA/CTRANSMEDIA-FITU2023-LOS-ADULTOS-ESTAN-EN-LA-SALA-55.jpg"
+
+//enearte bh
+import bh1 from "../../images/Produção/ENEARTE BH/CAPA.jpg"
+import bh2 from "../../images/Produção/ENEARTE BH/IMG_2052.jpg"
+import bh3 from "../../images/Produção/ENEARTE BH/IMG_2366.jpg"
+import bh4 from "../../images/Produção/ENEARTE BH/IMG_2389.jpg"
+import bh5 from "../../images/Produção/ENEARTE BH/IMG_2623.jpg"
+
+//etu
+import etu1 from "../../images/Produção/ETU/CAPA.jpg"
+import etu2 from "../../images/Produção/ETU/DSC_0394.jpg"
+import etu3 from "../../images/Produção/ETU/DSC_0502.jpg"
+import etu4 from "../../images/Produção/ETU/IMG_0034.jpg"
+import etu5 from "../../images/Produção/ETU/IMG_9964.jpg"
+
+//maomeiro
+import mm1 from "../../images/Produção/MAMOEIRO 2021/CAPA.jpg"
+import mm2 from "../../images/Produção/MAMOEIRO 2021/1639168613809.jpg"
+import mm3 from "../../images/Produção/MAMOEIRO 2021/61b2d212-c03a-4967-affc-4ee47596132b.jpg"
+import mm4 from "../../images/Produção/MAMOEIRO 2021/Um Dia Ouvi a Lua - Foto de Bruna Haddad (2).png"
+import mm5 from "../../images/Produção/MAMOEIRO 2021/Um Dia Ouvi a Lua - Foto de Bruna Haddad.png"
+import mm6 from "../../images/Produção/MAMOEIRO 2021/Um Dia Ouvi a Lua - Foto de Chiara Lazzaratto.png"
+
+//ca ig
+import ig1 from "../../images/Produção/CENTRO ACADÊMICO IG/CAPA.jpg"
+import ig2 from "../../images/Produção/CENTRO ACADÊMICO IG/DSC_0022.jpg"
+import ig3 from "../../images/Produção/CENTRO ACADÊMICO IG/DSC_0085.jpg"
+import ig4 from "../../images/Produção/CENTRO ACADÊMICO IG/DSC_0305.jpg"
+import ig5 from "../../images/Produção/CENTRO ACADÊMICO IG/DSC_0362.jpg"
 
 const okuta = [
     { url: imgokuta1, alt: 'Okutá Hiipadatiki'},
@@ -72,6 +117,27 @@ const okuta = [
     { url: imgokuta4, alt: 'Okutá Hiipadatiki'},
     { url: imgokuta5, alt: 'Okutá Hiipadatiki'},
 ]
+const colombia = [
+    { url: cl1, alt: 'XVIII FITU - Festival Internacional de Teatro Universitário'},
+    { url: cl2, alt: 'XVIII FITU - Festival Internacional de Teatro Universitário'},
+    { url: cl3, alt: 'XVIII FITU - Festival Internacional de Teatro Universitário'},
+    { url: cl4, alt: 'XVIII FITU - Festival Internacional de Teatro Universitário'},
+    { url: cl5, alt: 'XVIII FITU - Festival Internacional de Teatro Universitário'},
+]
+const etu = [
+    { url: etu1, alt: 'VII Encontro de Teatro Universitário (ETU)'},
+    { url: etu2, alt: 'VII Encontro de Teatro Universitário (ETU)'},
+    { url: etu3, alt: 'VII Encontro de Teatro Universitário (ETU)'},
+    { url: etu4, alt: 'VII Encontro de Teatro Universitário (ETU)'},
+    { url: etu5, alt: 'VII Encontro de Teatro Universitário (ETU)'},
+]
+const enearte = [
+    { url: bh1, alt: 'XXIV ENEARTE'},
+    { url: bh2, alt: 'XXIV ENEARTE'},
+    { url: bh3, alt: 'XXIV ENEARTE'},
+    { url: bh4, alt: 'XXIV ENEARTE'},
+    { url: bh5, alt: 'XXIV ENEARTE'},
+]
 const umanoite = [
     { url: imgumanoite1, alt: 'Uma Noite'},
     { url: imgumanoite2, alt: 'Uma Noite'},
@@ -79,6 +145,14 @@ const umanoite = [
     { url: imgumanoite4, alt: 'Uma Noite'},
     { url: imgumanoite5, alt: 'Uma Noite'},
     { url: imgumanoite6, alt: 'Uma Noite'}
+]
+const alunoartista = [
+    { url: ala1, alt: 'Aluno Artista'},
+    { url: ala2, alt: 'Aluno Artista'},
+    { url: ala3, alt: 'Aluno Artista'},
+    { url: ala4, alt: 'Aluno Artista'},
+    { url: ala5, alt: 'Aluno Artista'},
+    { url: ala6, alt: 'Aluno Artista'}
 ]
 const rei = [
     { url: imgrei1, alt: 'A Tragédia do Rei Christophe'},
@@ -126,6 +200,21 @@ const ladob = [
 const invisalign = [
     {url: invisa1 ,alt: 'Invisalign'},
 ]
+const maomeiro = [
+    { url: mm1, alt: 'Grupo Mamoeiro de Teatro PROEC-PEX (424)'},
+    { url: mm2, alt: 'Grupo Mamoeiro de Teatro PROEC-PEX (424)'},
+    { url: mm3, alt: 'Grupo Mamoeiro de Teatro PROEC-PEX (424)'},
+    { url: mm4, alt: 'Grupo Mamoeiro de Teatro PROEC-PEX (424)'},
+    { url: mm5, alt: 'Grupo Mamoeiro de Teatro PROEC-PEX (424)'},
+    { url: mm6, alt: 'Grupo Mamoeiro de Teatro PROEC-PEX (424)'},
+]
+const caig = [
+    { url: ig1, alt: 'In.Comodos Centro Academico IG'},
+    { url: ig2, alt: 'In.Comodos Centro Academico IG'},
+    { url: ig3, alt: 'In.Comodos Centro Academico IG'},
+    { url: ig4, alt: 'In.Comodos Centro Academico IG'},
+    { url: ig5, alt: 'In.Comodos Centro Academico IG'},
+]
 const FESTEJU = [
     { url: imgfesteju1, alt: 'FESTEJU'},
     { url: imgfesteju2, alt: 'FESTEJU'},
@@ -138,7 +227,6 @@ const FESTEJU = [
 function Projeto() {
     // Pegando o GET da página
     const { id } = useParams();
-
     // Construindo o caminho da pasta dinamicamente
     const [folder, name, direction] = id.split('|');
     let imgs = {}
@@ -156,7 +244,7 @@ function Projeto() {
     else if(name == 'Lado B'){
         pacote.imgs = ladob
     }
-    else if(name == 'FESTEJU'){
+    else if(name == '7º Festival de Teatro de Jundiaí '){
         pacote.imgs = FESTEJU
     }
     else if(name == 'Grease - O Musical'){
@@ -174,8 +262,24 @@ function Projeto() {
     else if(name == 'Invisalign'){
         pacote.imgs = invisalign
     }
-
-    console.log(pacote)
+    else if(name == 'Aluno Artista'){
+        pacote.imgs = alunoartista
+    }
+    else if(name == 'XVIII FITU - Festival Internacional de Teatro Universitário'){
+        pacote.imgs = colombia
+    }
+    else if(name == 'XXIV ENEARTE'){
+        pacote.imgs = enearte
+    }
+    else if(name == 'VII Encontro de Teatro Universitário (ETU)'){
+        pacote.imgs = etu
+    }
+    else if(name == 'Grupo Mamoeiro de Teatro PROEC-PEX (424)'){
+        pacote.imgs = maomeiro
+    }
+    else if(name == 'In.Comodos Centro Academico IG'){
+        pacote.imgs = caig
+    }
     // return
     return (
         <div className={styles.container}>

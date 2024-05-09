@@ -18,6 +18,12 @@ import img8 from '../../images/Teatro/O Alienista/capa.jpg'
 import img9 from '../../images/Teatro/Ópera do Malandro/CAPA.jpg'
 import img10 from '../../images/Teatro/Um Dia Ouvi a Lua/CAPA.jpg'
 import img11 from '../../images/Influencer/Invisalign/Galeria .jpeg'
+import img12 from '../../images/Produção/ALUNO ARTISTA/CAPA.jpg'
+import img13 from '../../images/Produção/COLÔMBIA/CAPA.jpg'
+import img14 from '../../images/Produção/ENEARTE BH/CAPA.jpg'
+import img15 from '../../images/Produção/ETU/CAPA.jpg'
+import img16 from '../../images/Produção/MAMOEIRO 2021/CAPA.jpg'
+import img17 from '../../images/Produção/CENTRO ACADÊMICO IG/CAPA.jpg'
 
 register();
 
@@ -83,9 +89,9 @@ function Slider({filter}) {
             tags: ['Influencer']
         },
         {
-            title: 'FESTEJU',
+            title: '7º Festival de Teatro de Jundiaí ',
             image: img6,
-            direction: '',
+            direction: 'Projeto In.Cômodos: ‘Os Adultos Estão na Sala’ (Jundiaí, 2023)',
             tags: ['Produção']
         },
         {
@@ -111,6 +117,42 @@ function Slider({filter}) {
             image: img11,
             direction: ' ',
             tags: ['Influencer']
+        },
+        {
+            title: 'Aluno Artista',
+            image: img12,
+            direction: ' ',
+            tags: ['Produção']
+        },
+        {
+            title: 'XVIII FITU - Festival Internacional de Teatro Universitário',
+            image: img13,
+            direction: 'Projeto: ‘Os Adultos Estão na Sala’ (Colômbia, 2023)',
+            tags: ['Produção']
+        },
+        {
+            title: 'XXIV ENEARTE',
+            image: img14,
+            direction: 'Projeto: ‘Os Adultos Estão na Sala’ (Belo Horizonte, 2023)',
+            tags: ['Produção']
+        },
+        {
+            title: 'VII Encontro de Teatro Universitário (ETU)',
+            image: img15,
+            direction: 'Projeto: ‘Os Adultos Estão na Sala’ (São Paulo, 2023)',
+            tags: ['Produção']
+        },
+        {
+            title: 'Grupo Mamoeiro de Teatro PROEC-PEX (424)',
+            image: img16,
+            direction: 'Projeto: ‘Leitura dramática de Um Dia Ouvi a Lua em escolas públicas de Campinas’ (2019-2021)',
+            tags: ['Produção']
+        },
+        {
+            title: 'In.Comodos Centro Academico IG',
+            image: img17,
+            direction: '-----',
+            tags: ['Produção']
         },
     ]
     const [selectedFilter, setSelectedFilter] = useState('');
