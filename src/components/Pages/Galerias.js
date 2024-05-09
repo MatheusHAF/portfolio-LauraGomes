@@ -2,7 +2,6 @@ import styles from "../styles_modules/Projetos.module.css"
 import Galeria from "./Galeria";
 
 import img1 from "../../images/Galeria/00 CAPA.jpg"
-import img2 from "../../images/Galeria/00 CAPA.jpg"
 import img3 from "../../images/Galeria/DSC_2113 (2).jpg"
 import img4 from "../../images/Galeria/DSC_2266 (2).jpg"
 import img5 from "../../images/Galeria/F6742A8F-8161-4B64-ACC3-C804F102CC37.jpg"
@@ -19,7 +18,6 @@ import img14 from "../../images/Galeria/Laura Gomes - 22 anos - 1,71m - @laurago
 function Projetos() {
     const images = [
         {url: img1},
-        {url: img2},
         {url: img3},
         {url: img4},
         {url: img5},

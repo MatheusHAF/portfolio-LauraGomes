@@ -51,7 +51,7 @@ export default function TemplateProjeto({ pacote }) {
                     </Swiper>
                 </div>
                 <div className={styles.bottom}>
-                        <p>Labore occaecat enim aliquip id id culpa nulla labore. Commodo non nostrud excepteur cillum sint do commodo. Velit proident quis nulla sunt. Velit aliqua consectetur minim id do qui pariatur. Enim esse reprehenderit elit esse aliqua est labore do ullamco. Occaecat duis officia pariatur dolor nisi. Consequat voluptate commodo veniam cupidatat sint officia nostrud tempor velit veniam in elit.</p>
+                        <p>{pacote.desc}</p>
                 </div>
             </div>
         </div>);

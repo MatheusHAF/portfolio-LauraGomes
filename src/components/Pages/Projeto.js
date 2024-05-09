@@ -1,6 +1,7 @@
 import styles from "../styles_modules/Projeto.module.css";
 import { useParams,Link } from "react-router-dom";
 import TemplateProjeto from "./TemplateProjeto";
+import { FaArrowLeft } from "react-icons/fa";
 
 //teatro
 import imgokuta1 from "../../images/Teatro/Okutá Hiipadatiki/00 capa.jpg"
@@ -54,6 +55,8 @@ import imgladob1 from "../../images/Influencer/Lado B/00 CAPA.jpg"
 import imgladob2 from "../../images/Influencer/Lado B/IMG_7619.jpg"
 import imgladob3 from "../../images/Influencer/Lado B/IMG_7637.jpg"
 
+import invisa1 from "../../images/Influencer/Invisalign/Galeria .jpeg"
+
 //producao
 import imgfesteju1 from "../../images/Produção/FESTEJU/00 CAPA.jpg"
 import imgfesteju2 from "../../images/Produção/FESTEJU/DSCF5131.jpg"
@@ -66,8 +69,7 @@ const okuta = [
     { url: imgokuta3, alt: 'Okutá Hiipadatiki'},
     { url: imgokuta4, alt: 'Okutá Hiipadatiki'},
     { url: imgokuta5, alt: 'Okutá Hiipadatiki'},
-];
-
+]
 const umanoite = [
     { url: imgumanoite1, alt: 'Uma Noite'},
     { url: imgumanoite2, alt: 'Uma Noite'},
@@ -119,6 +121,9 @@ const ladob = [
     { url: imgladob2, alt: 'Lado B'},
     { url: imgladob3, alt: 'Lado B'}
 ]
+const invisalign = [
+    {url: invisa1 ,alt: 'Invisalign'},
+]
 const FESTEJU = [
     { url: imgfesteju1, alt: 'FESTEJU'},
     { url: imgfesteju2, alt: 'FESTEJU'},
@@ -133,40 +138,54 @@ function Projeto() {
     // Construindo o caminho da pasta dinamicamente
     const [folder, name] = id.split('|');
     let imgs = {}
-    let pacote ={name,imgs}
+    let desc = {}
+    let pacote ={name,imgs,desc}
     if (name == 'Okutá Hiipadatiki') {
         pacote.imgs = okuta
+        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'Uma Noite'){
         pacote.imgs = umanoite
+        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'A Tragédia do Rei Christophe'){
         pacote.imgs = rei
+        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'Lado B'){
         pacote.imgs = ladob
+        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'FESTEJU'){
         pacote.imgs = FESTEJU
+        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'Grease - O Musical'){
         pacote.imgs = musical
+        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'O Alienista'){
         pacote.imgs = alienista
+        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'Ópera do Malandro'){
         pacote.imgs = opera
+        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
     else if(name == 'Um Dia Ouvi a Lua'){
         pacote.imgs = lua
+        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
+    }
+    else if(name == 'Invisalign'){
+        pacote.imgs = invisalign
+        pacote.desc = 'Veniam excepteur deserunt do pariatur aliquip laboris magna.'
     }
 
     console.log(pacote)
     // return
     return (
         <div className={styles.container}>
-            <Link to="../Projetos"><nav>Voltar</nav></Link>
+            <Link to="../Projetos" className={styles.btnvoltar}><FaArrowLeft /><nav>Voltar</nav></Link>
             <h1>{name}</h1>
             <TemplateProjeto pacote={pacote}/>
         </div>

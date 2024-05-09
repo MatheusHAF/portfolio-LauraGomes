@@ -17,6 +17,7 @@ import img7 from '../../images/Teatro/Grease - O Musical/CAPA.jpg'
 import img8 from '../../images/Teatro/O Alienista/capa.jpg'
 import img9 from '../../images/Teatro/Ópera do Malandro/CAPA.jpg'
 import img10 from '../../images/Teatro/Um Dia Ouvi a Lua/CAPA.jpg'
+import img11 from '../../images/Influencer/Invisalign/Galeria .jpeg'
 
 register();
 
@@ -72,7 +73,7 @@ function Slider({filter}) {
         {
             title: 'Grease - O Musical',
             image: img7,
-            direction: 'Direção ---',
+            direction: 'Fabiana Vitusso (2017)',
             tags: ['Teatro']
         },
         {
@@ -90,20 +91,26 @@ function Slider({filter}) {
         {
             title: 'O Alienista',
             image: img8,
-            direction: '--------------',
+            direction: 'Direção de Dirceu de Carvalho ',
             tags: ['Teatro']
         },
         {
             title: 'Ópera do Malandro',
             image: img9,
-            direction: '--------------',
+            direction: 'Direção de Marcelo Pinta (2016)',
             tags: ['Teatro']
         },
         {
             title: 'Um Dia Ouvi a Lua',
             image: img10,
-            direction: '--------------',
+            direction: 'Direção de Sofia Fransolin e orientação de Larissa Neves (2019)',
             tags: ['Teatro']
+        },
+        {
+            title: 'Invisalign',
+            image: img11,
+            direction: ' ',
+            tags: ['Influencer']
         },
     ]
     const [selectedFilter, setSelectedFilter] = useState('');
