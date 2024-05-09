@@ -43,6 +43,7 @@
     align-items: center;
     justify-content: space-around;
     font-size: 22px;
+    column-gap: 1em;
 }
 .about div p a{
     color: white;
@@ -73,6 +74,9 @@
     }
     .about div{
         width: 100%;
+    }
+    .about div p{
+        margin-bottom: 1.5em !important;
     }
     .main{
         padding-bottom: 3em;

@@ -1,4 +1,4 @@
-import { FaFacebook,FaInstagram,FaLinkedin } from "react-icons/fa6";
+import { FaInstagram, FaFacebook, FaYoutube, FaTiktok, FaWhatsapp } from "react-icons/fa";
 import styles from '../styles_modules/Footer.module.css'
 
 function Footer() {
@@ -16,9 +16,31 @@ function Footer() {
                 <div className={styles.top_right}>
                     <p>Redes Sociais</p>
                     <ul>
-                        <li><FaFacebook/></li>
-                        <li><FaInstagram/></li>
-                        <li><FaLinkedin/></li>
+                        <li>
+                            <a href="https://www.facebook.com/lauricadanica?mibextid=PlNXYD" target='_blank'>
+                                <FaFacebook />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/lauragomes_lg?igsh=OW5zMWExcWExYmVj&utm_source=qr " target='_blank'>
+                                <FaInstagram />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://youtube.com/@Laurica?si=iBjHsDar9WRC7-fA " target='_blank'>
+                                <FaYoutube />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.tiktok.com/@_laurica_lg?_t=8lMwj4lhlva&_r=1" target='_blank'>
+                                <FaTiktok />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" target='_blank'>
+                                <FaWhatsapp />
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
