@@ -58,10 +58,12 @@ import imgladob3 from "../../images/Influencer/Lado B/IMG_7637.jpg"
 import invisa1 from "../../images/Influencer/Invisalign/Galeria .jpeg"
 
 //producao
-import imgfesteju1 from "../../images/Produção/FESTEJU/00 CAPA.jpg"
-import imgfesteju2 from "../../images/Produção/FESTEJU/DSCF5131.jpg"
-import imgfesteju3 from "../../images/Produção/FESTEJU/DSCF5132.jpg"
-import imgfesteju4 from "../../images/Produção/FESTEJU/IMG_2612.jpg"
+import imgfesteju1 from "../../images/Produção/FESTEJU/CAPA.jpg"
+import imgfesteju2 from "../../images/Produção/FESTEJU/DSCF5132 (1).jpg"
+import imgfesteju3 from "../../images/Produção/FESTEJU/DSCF5168.jpg"
+import imgfesteju4 from "../../images/Produção/FESTEJU/DSCF5171.jpg"
+import imgfesteju5 from "../../images/Produção/FESTEJU/DSCF5220.jpg"
+import imgfesteju6 from "../../images/Produção/FESTEJU/DSCF5226.jpg"
 
 const okuta = [
     { url: imgokuta1, alt: 'Okutá Hiipadatiki'},
@@ -128,7 +130,9 @@ const FESTEJU = [
     { url: imgfesteju1, alt: 'FESTEJU'},
     { url: imgfesteju2, alt: 'FESTEJU'},
     { url: imgfesteju3, alt: 'FESTEJU'},
-    { url: imgfesteju4, alt: 'FESTEJU'}
+    { url: imgfesteju4, alt: 'FESTEJU'},
+    { url: imgfesteju5, alt: 'FESTEJU'},
+    { url: imgfesteju6, alt: 'FESTEJU'},
 ]
 
 function Projeto() {
