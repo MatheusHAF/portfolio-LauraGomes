@@ -1,4 +1,5 @@
+@import url('../styles/pallet.css');
 body{
-  background-color: black;
+  background-color: var(--bg-100);
   color: white;
 }
