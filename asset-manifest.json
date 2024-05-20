@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-LauraGomes/static/css/main.2c1c8d4d.css",
-    "main.js": "/portfolio-LauraGomes/static/js/main.8f5efbe0.js",
+    "main.css": "/portfolio-LauraGomes/static/css/main.9c17acef.css",
+    "main.js": "/portfolio-LauraGomes/static/js/main.7eb5676c.js",
     "static/js/453.1c535ce0.chunk.js": "/portfolio-LauraGomes/static/js/453.1c535ce0.chunk.js",
     "static/media/Laura Gomes - 22 anos - 1,71m - @lauragomes_lg - foto 2.jpg": "/portfolio-LauraGomes/static/media/Laura Gomes - 22 anos - 1,71m - @lauragomes_lg - foto 2.0e4ac2885601a1514ff6.jpg",
     "static/media/DSC_2266 (2).jpg": "/portfolio-LauraGomes/static/media/DSC_2266 (2).b2aafd8bf2837979f606.jpg",
@@ -87,12 +87,12 @@
     "static/media/IMG_9572.jpg": "/portfolio-LauraGomes/static/media/IMG_9572.680476e1bae7ca3361ae.jpg",
     "static/media/WhatsApp Image 2021-04-19 at 16.17.41 (6).jpeg": "/portfolio-LauraGomes/static/media/WhatsApp Image 2021-04-19 at 16.17.41 (6).2c6835ac13d75eacaec4.jpeg",
     "index.html": "/portfolio-LauraGomes/index.html",
-    "main.2c1c8d4d.css.map": "/portfolio-LauraGomes/static/css/main.2c1c8d4d.css.map",
-    "main.8f5efbe0.js.map": "/portfolio-LauraGomes/static/js/main.8f5efbe0.js.map",
+    "main.9c17acef.css.map": "/portfolio-LauraGomes/static/css/main.9c17acef.css.map",
+    "main.7eb5676c.js.map": "/portfolio-LauraGomes/static/js/main.7eb5676c.js.map",
     "453.1c535ce0.chunk.js.map": "/portfolio-LauraGomes/static/js/453.1c535ce0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c1c8d4d.css",
-    "static/js/main.8f5efbe0.js"
+    "static/css/main.9c17acef.css",
+    "static/js/main.7eb5676c.js"
   ]
 }
