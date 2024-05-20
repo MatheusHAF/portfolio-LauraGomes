@@ -1,10 +1,11 @@
+@import url('/src/styles/pallet.css');
 .container{
-    background-color: rgb(31, 31, 31);
+    background-color: var(--bg-200);
     width: 100%;
     max-width: 1200px;
     margin: 3em auto;
     border-radius: 10px;
-    color: rgb(214, 214, 214);
+    color: var(--text-200);
 }
 .div_projs{
     padding: 1em;
@@ -20,8 +21,8 @@
     width: 50%;
     margin: 1em auto;
     padding-bottom: 0.5em;
-    color: rgb(255, 187, 0);
-    border-bottom: 2px solid rgb(255, 187, 0);
+    color: var(--primary-100);
+    border-bottom: 2px solid var(--primary-100);
     font-size: 38px;
 }
 .container details{
@@ -31,7 +32,7 @@
     overflow: hidden;
     width: 100%;
     border-radius: 10px;
-    border: 2px solid rgb(58, 58, 58);
+    border: 2px solid var(--bg-300);
 }
 .container details[open]{
     max-height: 1000px;
@@ -39,8 +40,8 @@
 .container summary{
     transition: 0.5s ease;
     cursor: pointer;
-    color: rgb(255, 187, 0);
-    background-color: rgb(58, 58, 58);
+    color: var(--primary-100);
+    background-color: var(--bg-300);
     padding: 1em;
     font-size: 21px;
     font-weight: bold;
@@ -58,8 +59,7 @@
     border-top: 0;
 }
 .card{
-    background-color: red;
-    border: 2px solid rgb(58, 58, 58);
+    border: 2px solid var(--bg-300);
     width: 300px;
 }
 .card>img{

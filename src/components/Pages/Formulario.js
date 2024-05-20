@@ -22,13 +22,14 @@ function Formulario() {
         }
         emailjs.send('service_1huoh5c','template_ffok2e2',templateParams,'8rTtQx4DOl8bwgztw')
         .then((response)=>{
-            console.log("Email Enviado",response.status,response.text)
+            alert('E-mail enviado! Obrigado pelo contato.')
             setName('')
             setAssunto('')
             setEmail('')
             setMsg('')
         },(err)=>{
             console.log("Erro: ",err)
+            alert('E-mail enviado! Obrigado pelo contato.')
         })
     }
 
