@@ -7,16 +7,16 @@
 
 .about {
     margin: 5em auto 0;
-    color: rgb(214, 214, 214);
+    color: var(--text-200);
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 60%;
     padding: 2em 1em;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.12);
+    background-color: var(--bg-200);
     text-align: center;
-    box-shadow: 0 0 10px rgba(255, 187, 0);
+    /* box-shadow: 0 0 10px var(--primary-100); */
 }
 
 .about p {
@@ -25,7 +25,7 @@
 }
 .about p span{
     font-size: 22px;
-    color: rgb(255, 187, 0);
+    color: var(--primary-100);
 }
 .about div{
     width: 50%;
@@ -42,25 +42,24 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 22px;
+    font-size: 25px;
     column-gap: 1em;
 }
 .about div p a{
-    color: white;
+    color: var(--primary-100);
     text-decoration: none;
     transition: 0.2s ease-in-out;
 }
 .about div p a:hover{
-    color: rgb(206, 170, 13);
+    color: var(--text-200);
 }
 
 .about img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 15px;
     overflow: hidden;
     object-fit: cover;
-    box-shadow: 0 0 10px rgb(255, 187, 0);
 }
 @media (max-width: 800px){
     .about{

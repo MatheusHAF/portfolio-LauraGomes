@@ -7,3 +7,6 @@ body {
   */
   padding: 0;
 }
+input{
+  font-family: "PT Mono", monospace;
+}

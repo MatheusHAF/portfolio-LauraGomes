@@ -11,7 +11,7 @@ function Contatos() {
                 <div className={styles.content}>
                     <div className={styles.left}>
                         <p>
-                            Entre em contato comigo enviando um E-mail para <span>contato.lauragomes@gmail.com</span>,
+                            Entre em contato comigo enviando um E-mail para <span>contato.lauragomes@hotmail.com</span>,
                             ou utilize o Formulário de contato.
                         </p>
                         <h2>Acesse minhas redes sociais</h2>

@@ -1,9 +1,11 @@
+@import url('/src/styles/pallet.css');
 .header {
     position: relative;
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items: center; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-200); 
 }
 
 .header img {
@@ -21,12 +23,8 @@
     gap: 0.5em;
 }
 
-.list li {
-    height: 3em;
-}
-
 .header li a {
-    color: rgb(134, 134, 134);
+    color: var(--text-200);
     text-decoration: none;
     height: 100%;
     display: flex;
@@ -37,20 +35,9 @@
     font-weight: 700;
 }
 
-.header li a:after {
-    position: absolute;
-    content: " ";
-    width: 0;
-    height: 3px;
-    background-color: rgb(255, 187, 0);
-    left: 0;
-    bottom: 0;
-    transition: 0.3s ease-in-out;
-}
-
 .header li a:hover {
-    color: white;
-    transition: 0.3s;
+    color: var(--primary-100);
+    transition: all 0.3s;
 }
 
 .header li a:hover:after {
@@ -58,10 +45,10 @@
 }
 
 .menu_icon {
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
     right: 0.75rem;
-    top: 0;
+    top: 0.5rem;
     display: none;
 }
 
@@ -97,6 +84,7 @@
 
     .list li {
         width: 50%; /* Define a largura para ocupar metade do espaço em telas menores */
+        height: 2em;
     }
 
     .list li a {
@@ -125,6 +113,5 @@
     to {
         max-height: 0;
         /* Termina com altura zero */
-        color: white;
     }
 }

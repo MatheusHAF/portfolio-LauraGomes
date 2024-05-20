@@ -2,18 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgb(134, 134, 134);
-    background-color: rgb(26, 26, 26);
-    border-top: 1px solid black;
+    color: var(--text-200);
+    background-color: var(--bg-200);
     width: 100%;
 }
 
 .footer_top {
     width: 90%;
-    border-bottom: 1px solid rgb(78, 78, 78);
+    border-bottom: 1px solid var(--bg-300);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .top_left {
@@ -22,7 +21,7 @@
 }
 
 .top_left h1 {
-    color: rgb(255, 187, 0);
+    color: var(--primary-100);
     font-weight: 400;
 }
 
@@ -34,7 +33,7 @@
 }
 
 .top_right p {
-    color: rgb(255, 187, 0);
+    color: var(--primary-100);
     text-align: center;
 }
 
@@ -51,20 +50,20 @@
     font-size: 20px;
     text-align: center;
     transition: 0.2s ease-in-out;
+    color: var(--primary-100);
 }
-
 .top_right ul li:hover {
-    color: rgb(206, 170, 13);
+    color: var(--text-200);
     cursor: pointer;
 }
 
 .footer_bottom {
-    color: rgb(134, 134, 134);
+    color: var(--text-200);
     font-size: 12px;
 }
 
 .footer_bottom span {
-    color: rgb(206, 170, 13);
+    color: var(--primary-100);
 }
 
 @media (max-width: 600px) {

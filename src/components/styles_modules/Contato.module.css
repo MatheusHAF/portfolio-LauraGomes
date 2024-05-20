@@ -3,17 +3,17 @@
     width: 50%;
     margin: 1em auto;
     padding-bottom: 0.5em;
-    color: rgb(255, 187, 0);
-    border-bottom: 2px solid rgb(255, 187, 0);
+    color: var(--primary-100);
+    border-bottom: 2px solid var(--primary-100);
     font-size: 38px;
 }
 .container{
-    background-color: rgb(31, 31, 31);
+    background-color: var(--bg-200);
     width: 100%;
     max-width: 100%;
     margin: 3em auto;
     border-radius: 10px;
-    color: rgb(214, 214, 214);
+    color: var(--text-100);
 
     display: flex;
     flex-direction: column;
@@ -36,50 +36,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 187, 0);
+    color: var(--primary-100);
 }
 .left h2{
-    color: rgb(255, 187, 0);
+    color: var(--primary-100);
 }
 .right h1{
-    color: rgb(255, 187, 0);
+    color: var(--primary-100);
     text-align: left;
     width: 100%;
 }
 .right form{
     display: block;
     width: 100%;
-}
-.right input,.right textarea{
-    width: 90%;
-    border-radius: 10px;
-    border: none;
-    background-color: rgb(175, 175, 175);
-    padding: 0 10px;
-    border: 2px solid rgba(255, 187, 0, 0.438);
-    font-weight: bold;
-    
-}
-.right input{
-    height: 25px;
+    font-weight: 500;
 }
 .right nav{
     display: flex;
     flex-direction: column;
     margin-bottom: 1em;
     width: 100%;
-}
-.right .submit{
-    width: 150px;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    color: rgb(255, 187, 0);
-    background-color: black;
-}
-.submit:hover{
-    cursor: pointer;
 }
 .left{
     height: 100%;
@@ -94,16 +70,16 @@
     text-align: left;
 }
 .left p span{
-    color: rgb(255, 187, 0);
+    color: var(--primary-100);
 }
 .left svg{
     border-radius: 50%;
     transition: all 0.3s ease;
+    color: var(--primary-100);
 }
 .left svg:hover{
     cursor: pointer;
-    background-color: rgba(255, 187, 0, 0.2);
-    box-shadow: 0 0 1px 2px rgba(255, 187, 0, 0.2),inset 0 0 1px 2px rgba(255, 187, 0, 0.2);
+    color: var(--text-200);
 }
 .left nav{
     width: 80%;
@@ -130,7 +106,7 @@
     }
     .right{
         margin-top: 2em;
-        border-top: 2px solid rgba(175, 175, 175, 0.2);
+        border-top: 2px solid var(--bg-300);
     }
     .right h1{
         font-size: 24px;

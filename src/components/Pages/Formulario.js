@@ -37,24 +37,27 @@ function Formulario() {
             <nav>
                 <label>Nome: </label>
                 <input type="text" 
-                placeholder="Digite seu nome" 
+                placeholder="Digite seu nome"
+                className={styles.iptform} 
                 value={name} onChange={(e) => setName(e.target.value)} />
             </nav>
             <nav>
                 <label>Assunto: </label>
                 <input type="text"
-                placeholder="Digite o assunto" 
+                placeholder="Digite o assunto"
+                className={styles.iptform} 
                 value={assunto} onChange={(e) => setAssunto(e.target.value)} />
             </nav>
             <nav>
                 <label>Seu E-mail: </label>
                 <input type="email"
                 placeholder="Digite seu Email" 
+                className={styles.iptform} 
                 value={email} onChange={(e) => setEmail(e.target.value)} />
             </nav>
             <nav>
                 <label>Mensagem: </label>
-                <textarea cols="30" rows="10"
+                <textarea cols="10" rows="10"
                 placeholder="Digite sua mensagem" 
                 value={msg} onChange={(e) => setMsg(e.target.value)}></textarea>
             </nav>
